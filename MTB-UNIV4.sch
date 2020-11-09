@@ -21098,7 +21098,7 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="ElectroKrt">
+<library name="ElectroKrt" urn="urn:adsk.eagle:library:22801521">
 <packages>
 <package name="TO92" urn="urn:adsk.eagle:footprint:28459/1">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
@@ -23850,8 +23850,8 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22pF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="22pF"/>
 <part name="IC2" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL8" device="" package3d_urn="urn:adsk.eagle:package:29519/2" value="SN75176BP"/>
-<part name="X1" library="ElectroKrt" deviceset="CON-04-5.0" device="CON-5MM"/>
-<part name="X2" library="ElectroKrt" deviceset="CON-04-5.0" device="CON-5MM"/>
+<part name="X1" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="CON-04-5.0" device="CON-5MM"/>
+<part name="X2" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="CON-04-5.0" device="CON-5MM"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -23868,7 +23868,7 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:6240747/1" value="Schottky"/>
-<part name="F1" library="ElectroKrt" deviceset="PTCFUSE" device="-5MM"/>
+<part name="F1" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="PTCFUSE" device="-5MM"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="JP2" library="con-phoenix-254" library_urn="urn:adsk.eagle:library:172" deviceset="MPT2" device="" package3d_urn="urn:adsk.eagle:package:9320/1"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="22uF"/>
@@ -23912,8 +23912,8 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="TH1" library="ElectroKrt" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
-<part name="TH2" library="ElectroKrt" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
+<part name="TH1" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
+<part name="TH2" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="F10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
 <part name="F11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
 <part name="F12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
@@ -23926,7 +23926,7 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
-<part name="TH3" library="ElectroKrt" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
+<part name="TH3" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" deviceset="MC78M05BDTRKG" device="" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG"/>
@@ -23963,7 +23963,7 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="TH4" library="ElectroKrt" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
+<part name="TH4" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="F26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
 <part name="F27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
 <part name="F28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
@@ -23972,27 +23972,27 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <part name="F31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
 <part name="F32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
 <part name="F33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
-<part name="D6" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D7" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D8" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D9" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D10" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D11" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D12" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D13" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D14" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D15" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D16" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D17" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D18" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D19" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D20" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
-<part name="D21" library="ElectroKrt" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D6" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D7" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D8" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D9" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D10" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D11" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D12" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D13" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D14" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D15" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D16" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D17" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D18" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D19" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D20" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
+<part name="D21" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2"/>
 <part name="D22" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2k2"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
-<part name="TH5" library="ElectroKrt" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
+<part name="TH5" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="MCR100" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
