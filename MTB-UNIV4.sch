@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24892,21 +24892,6 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <junction x="73.66" y="91.44"/>
 <junction x="66.04" y="81.28"/>
 <wire x1="10.16" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="H4" gate="G$1" pin="MOUNT"/>
-<wire x1="12.7" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="45.72" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="53.34" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="60.96" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="68.58" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="H3" gate="G$1" pin="MOUNT"/>
-<wire x1="12.7" y1="53.34" x2="10.16" y2="53.34" width="0.1524" layer="91"/>
-<junction x="10.16" y="53.34"/>
-<pinref part="H2" gate="G$1" pin="MOUNT"/>
-<wire x1="12.7" y1="60.96" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
-<junction x="10.16" y="60.96"/>
-<pinref part="H1" gate="G$1" pin="MOUNT"/>
-<wire x1="12.7" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
-<junction x="10.16" y="68.58"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
@@ -24914,7 +24899,6 @@ Source: http://eshop.phoenixcontact.com .. 1751316.pdf</description>
 <wire x1="22.86" y1="99.06" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="99.06" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
-<junction x="10.16" y="81.28"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="101.6" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <junction x="33.02" y="99.06"/>
