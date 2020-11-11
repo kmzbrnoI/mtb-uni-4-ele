@@ -22390,6 +22390,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </class>
 <class number="2" name="io_power" width="0.8128" drill="0">
 </class>
+<class number="3" name="power5V" width="0.4064" drill="0">
+</class>
 </classes>
 <parts>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1"/>
@@ -23701,7 +23703,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <junction x="353.06" y="208.28"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="3">
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
