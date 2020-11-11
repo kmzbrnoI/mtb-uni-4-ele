@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="3" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22560,6 +22560,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <sheets>
 <sheet>
 <plain>
+<text x="289.56" y="15.24" size="6.4516" layer="97">MTB-UNI v4</text>
+<text x="289.56" y="7.62" size="2.54" layer="97">Robert Cizek, Jan Horacek
+2020</text>
+<text x="343.916" y="20.32" size="2.54" layer="97">v4.0</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="38.1" y="111.76" smashed="yes">
@@ -25436,6 +25440,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
