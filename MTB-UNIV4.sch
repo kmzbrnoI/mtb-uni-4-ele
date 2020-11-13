@@ -22392,6 +22392,12 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </class>
 <class number="3" name="power5V" width="0.4064" drill="0">
 </class>
+<class number="4" name="power12V" width="0.4064" drill="0">
+<clearance class="0" value="1"/>
+<clearance class="1" value="1"/>
+<clearance class="2" value="1"/>
+<clearance class="3" value="1"/>
+</class>
 </classes>
 <parts>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1"/>
@@ -23952,7 +23958,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="17.78" y1="114.3" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+12V" class="4">
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="223.52" y1="109.22" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
