@@ -22431,7 +22431,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:6240747/1" value="Schottky"/>
-<part name="F1" library="adafruit_edited" deviceset="PTCFUSE" device="-1812"/>
+<part name="F1" library="adafruit_edited" deviceset="PTCFUSE" device="-1206" value="200mA"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="JP2" library="con-phoenix-254" library_urn="urn:adsk.eagle:library:172" deviceset="MPT2" device="" package3d_urn="urn:adsk.eagle:package:9320/1"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="22uF"/>
@@ -22461,37 +22461,37 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="10k"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="F2" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F3" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F4" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F5" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F6" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F7" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F8" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F9" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="F2" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F3" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F4" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F5" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F6" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F7" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F8" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F9" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="TH1" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
 <part name="TH2" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
-<part name="F10" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F11" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F12" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F13" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F14" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F15" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F16" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F17" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
+<part name="F10" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F11" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F12" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F13" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F14" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F15" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F16" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
+<part name="F17" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="TH3" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="15V"/>
 <part name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" deviceset="MC78M05BDTRKG" device="" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG"/>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1"/>
@@ -22514,27 +22514,27 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="X4" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1"/>
 <part name="X5" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1"/>
 <part name="X6" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1"/>
-<part name="F18" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F19" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F20" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F21" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F22" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F23" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F24" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F25" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="F18" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F19" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F20" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F21" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F22" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F23" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F24" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F25" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="TH4" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
-<part name="F26" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F27" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F28" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F29" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F30" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F31" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F32" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
-<part name="F33" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S"/>
+<part name="F26" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F27" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F28" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F29" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F30" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F31" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F32" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
+<part name="F33" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
 <part name="D6" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2" value="LM5819"/>
 <part name="D7" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2" value="LM5819"/>
 <part name="D8" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2" value="LM5819"/>
@@ -22551,7 +22551,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="D19" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2" value="LM5819"/>
 <part name="D20" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2" value="LM5819"/>
 <part name="D21" library="ElectroKrt" library_urn="urn:adsk.eagle:library:22801521" deviceset="SCHOTTKY_" device="LM5819" package3d_urn="urn:adsk.eagle:package:16378190/2" value="LM5819"/>
-<part name="D22" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2"/>
+<part name="D22" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
@@ -22924,7 +22924,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </instance>
 <instance part="D2" gate="G$1" x="276.86" y="58.42" smashed="yes" rot="MR90">
 <attribute name="NAME" x="278.765" y="56.642" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="273.431" y="56.642" size="1.778" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="281.051" y="56.642" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="IC3" gate="G$1" x="335.28" y="63.5" smashed="yes">
 <attribute name="NAME" x="327.66" y="71.12" size="1.778" layer="95"/>
