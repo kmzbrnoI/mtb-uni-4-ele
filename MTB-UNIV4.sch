@@ -22424,7 +22424,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
+<part name="JPROG" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -22658,7 +22658,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="NAME" x="24.384" y="117.221" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.384" y="112.141" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="304.8" y="106.68" smashed="yes">
+<instance part="JPROG" gate="G$1" x="304.8" y="106.68" smashed="yes">
 <attribute name="NAME" x="302.26" y="99.06" size="1.778" layer="95"/>
 </instance>
 <instance part="C7" gate="G$1" x="309.88" y="55.88" smashed="yes">
@@ -23498,7 +23498,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="332.74" y1="99.06" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="96.52" x2="325.12" y2="96.52" width="0.1524" layer="91"/>
 <junction x="325.12" y="96.52"/>
-<pinref part="JP1" gate="G$1" pin="GND"/>
+<pinref part="JPROG" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="5"/>
@@ -23765,7 +23765,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <junction x="325.12" y="109.22"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="109.22" x2="332.74" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="VCC"/>
+<pinref part="JPROG" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="8"/>
@@ -23816,7 +23816,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <segment>
 <wire x1="292.1" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
 <label x="289.56" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="MISO"/>
+<pinref part="JPROG" gate="G$1" pin="MISO"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -23828,7 +23828,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <segment>
 <wire x1="320.04" y1="106.68" x2="322.58" y2="106.68" width="0.1524" layer="91"/>
 <label x="322.58" y="106.68" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="MOSI"/>
+<pinref part="JPROG" gate="G$1" pin="MOSI"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -23840,7 +23840,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <segment>
 <wire x1="292.1" y1="106.68" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
 <label x="289.56" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="SCK"/>
+<pinref part="JPROG" gate="G$1" pin="SCK"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -23953,7 +23953,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <segment>
 <wire x1="292.1" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
 <label x="289.56" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP1" gate="G$1" pin="RST"/>
+<pinref part="JPROG" gate="G$1" pin="RST"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
