@@ -14394,81 +14394,6 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-phoenix-254" urn="urn:adsk.eagle:library:172">
-<description>&lt;b&gt;Phoenix Connectors&lt;/b&gt;&lt;p&gt;
-Grid 2.54 mm&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="2POL254" urn="urn:adsk.eagle:footprint:9305/1" library_version="2">
-<description>&lt;b&gt;PHOENIX CONNECTOR&lt;/b&gt;</description>
-<wire x1="-2.67" y1="-1.45" x2="2.67" y2="-1.45" width="0.254" layer="21"/>
-<wire x1="2.67" y1="-1.45" x2="2.67" y2="1.45" width="0.254" layer="21"/>
-<wire x1="2.67" y1="1.45" x2="-2.67" y2="1.45" width="0.254" layer="21"/>
-<wire x1="-2.67" y1="1.45" x2="-2.67" y2="-1.45" width="0.254" layer="21"/>
-<wire x1="-2.56" y1="1.1" x2="2.56" y2="1.1" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-0.508" x2="-0.762" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="-0.254" x2="2.032" y2="0.127" width="0.1524" layer="51"/>
-<circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<circle x="1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
-<pad name="1" x="-1.27" y="0" drill="1.2" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1.2" shape="long" rot="R90"/>
-<text x="-2.794" y="1.778" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.794" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="2POL254" urn="urn:adsk.eagle:package:9320/1" type="box" library_version="2">
-<description>PHOENIX CONNECTOR</description>
-<packageinstances>
-<packageinstance name="2POL254"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SKB" urn="urn:adsk.eagle:symbol:9303/1" library_version="2">
-<wire x1="2.032" y1="0.762" x2="0.508" y2="-0.762" width="0.254" layer="94"/>
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="3.556" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-<symbol name="SKBV" urn="urn:adsk.eagle:symbol:9304/1" library_version="2">
-<wire x1="2.032" y1="0.762" x2="0.508" y2="-0.762" width="0.254" layer="94"/>
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="3.556" y="-0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.016" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MPT2" urn="urn:adsk.eagle:component:9328/2" prefix="X" uservalue="yes" library_version="2">
-<description>&lt;b&gt;PHOENIX CONNECTOR&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="SKB" x="0" y="0" addlevel="always"/>
-<gate name="-2" symbol="SKBV" x="0" y="-5.08" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="2POL254">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9320/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="5" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="resistor-net" urn="urn:adsk.eagle:library:343">
 <description>&lt;b&gt;Generic Resistor Networks&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -22423,7 +22348,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="JPROG" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
@@ -22433,7 +22357,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA" package3d_urn="urn:adsk.eagle:package:6240747/1" value="Schottky"/>
 <part name="F1" library="adafruit_edited" deviceset="PTCFUSE" device="-1206" value="200mA"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="JP2" library="con-phoenix-254" library_urn="urn:adsk.eagle:library:172" deviceset="MPT2" device="" package3d_urn="urn:adsk.eagle:package:9320/1"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCB" package3d_urn="urn:adsk.eagle:package:25920/5" value="22uF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCD" package3d_urn="urn:adsk.eagle:package:25923/2" value="22uF"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
@@ -22654,13 +22577,9 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="NAME" x="57.404" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="57.404" y="86.741" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="43.18" y="127" smashed="yes">
-<attribute name="NAME" x="39.37" y="128.4986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="39.37" y="123.698" size="1.778" layer="96"/>
-</instance>
-<instance part="C6" gate="G$1" x="22.86" y="116.84" smashed="yes">
-<attribute name="NAME" x="24.384" y="117.221" size="1.778" layer="95"/>
-<attribute name="VALUE" x="24.384" y="112.141" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="55.88" y="127" smashed="yes">
+<attribute name="NAME" x="52.07" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="123.698" size="1.778" layer="96"/>
 </instance>
 <instance part="JPROG" gate="G$1" x="304.8" y="106.68" smashed="yes">
 <attribute name="NAME" x="302.26" y="99.06" size="1.778" layer="95"/>
@@ -22694,13 +22613,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
-</instance>
-<instance part="JP2" gate="-1" x="15.24" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.684" y="109.855" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="JP2" gate="-2" x="15.24" y="114.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.684" y="114.935" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="16.256" y="117.602" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C11" gate="G$1" x="358.14" y="55.88" smashed="yes">
 <attribute name="NAME" x="359.283" y="56.3626" size="1.778" layer="95"/>
@@ -23471,19 +23383,11 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="99.06" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="99.06" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="101.6" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
 <junction x="33.02" y="99.06"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="111.76" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
-<junction x="22.86" y="99.06"/>
-<pinref part="JP2" gate="-1" pin="1"/>
-<wire x1="17.78" y1="109.22" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
-<junction x="17.78" y="99.06"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="86.36" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -23751,7 +23655,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="76.2" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
 <junction x="66.04" y="104.14"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
 <junction x="66.04" y="127"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="93.98" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
@@ -23965,19 +23869,13 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="127" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="127" x2="48.26" y2="127" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="127" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="RESET"/>
-<wire x1="22.86" y1="121.92" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
-<junction x="22.86" y="121.92"/>
-<wire x1="17.78" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="121.92" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
-<junction x="17.78" y="121.92"/>
-<label x="15.24" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP2" gate="-2" pin="1"/>
-<wire x1="17.78" y1="114.3" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="121.92" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
+<junction x="48.26" y="121.92"/>
+<wire x1="45.72" y1="121.92" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
+<label x="45.72" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+12V" class="4">
