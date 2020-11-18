@@ -22564,6 +22564,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="X1B" library="con-malina" deviceset="ARK500/2" device=""/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
+<part name="U$6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
+<part name="U$7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
+<part name="U$8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -23375,6 +23379,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="GND7" gate="1" x="182.88" y="73.66" smashed="yes">
 <attribute name="VALUE" x="180.34" y="71.12" size="1.778" layer="96"/>
 </instance>
+<instance part="U$5" gate="G$1" x="7.62" y="15.24" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="15.24" y="15.24" smashed="yes"/>
+<instance part="U$7" gate="G$1" x="22.86" y="15.24" smashed="yes"/>
+<instance part="U$8" gate="G$1" x="30.48" y="15.24" smashed="yes"/>
 </instances>
 <busses>
 <bus name="D-IN(A)[1..8]">

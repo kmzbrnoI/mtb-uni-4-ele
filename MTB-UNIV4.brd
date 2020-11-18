@@ -4003,9 +4003,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="52.3875" y="20.6375" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="52.705" y="20.6375" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="75.565" y="2.54" smashed="yes"/>
-<element name="U$2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="2.28" y="38.88" smashed="yes"/>
-<element name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="45.365" y="38.955" smashed="yes"/>
+<element name="U$1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="99.3775" y="1.5875" smashed="yes"/>
+<element name="U$2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="6.09" y="50.31" smashed="yes"/>
+<element name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="6.9475" y="1.49" smashed="yes"/>
 <element name="U$4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="74.5825" y="49.8125" smashed="yes"/>
 <element name="JP3" library="con-molex" package="7395-09-OCTHOLE" value="22-OCTHOLE-09" x="23.85" y="49.26" smashed="yes" rot="R180">
 <attribute name="VALUE" x="30.0999" y="46.3121" size="0.8128" layer="27" ratio="10"/>
@@ -4219,6 +4219,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="77.47" y="35.56" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="77.47" y="35.56" size="1.27" layer="28" rot="MR270"/>
 </element>
+<element name="U$5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="6.985" y="1.5875" smashed="yes" rot="MR0"/>
+<element name="U$6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="6.35" y="50.165" smashed="yes" rot="MR0"/>
+<element name="U$7" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="99.3775" y="50.165" smashed="yes" rot="MR0"/>
+<element name="U$8" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="98.7425" y="1.5875" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
