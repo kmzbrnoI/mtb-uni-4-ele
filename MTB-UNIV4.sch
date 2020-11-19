@@ -13236,21 +13236,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
-<package name="FIDUCIAL_1MM" urn="urn:adsk.eagle:footprint:6239986/1" library_version="2">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
-<polygon width="0.127" layer="29">
-<vertex x="-1" y="0" curve="90"/>
-<vertex x="0" y="-1" curve="90"/>
-<vertex x="1" y="0" curve="90"/>
-<vertex x="0" y="1" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="-1" y="0" curve="90"/>
-<vertex x="0" y="-1" curve="90"/>
-<vertex x="1" y="0" curve="90"/>
-<vertex x="0" y="1" curve="90"/>
-</polygon>
-</package>
 </packages>
 <packages3d>
 <package3d name="AVRISP" urn="urn:adsk.eagle:package:6240744/1" type="box" library_version="2">
@@ -13537,11 +13522,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstance name="SMLK34"/>
 </packageinstances>
 </package3d>
-<package3d name="FIDUCIAL_1MM" urn="urn:adsk.eagle:package:6240632/1" type="box" library_version="2">
-<packageinstances>
-<packageinstance name="FIDUCIAL_1MM"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="AVRISP" urn="urn:adsk.eagle:symbol:6239557/1" library_version="2">
@@ -13592,9 +13572,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
-</symbol>
-<symbol name="DOT" urn="urn:adsk.eagle:symbol:6239475/1" library_version="2">
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14199,23 +14176,6 @@ Source: http://www.osram.convergy.de/</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6240838/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FIDUCIAL" urn="urn:adsk.eagle:component:6240978/1" library_version="2">
-<description>For use by pick and place machines to calibrate the vision/machine, 1mm
-&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="DOT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FIDUCIAL_1MM">
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -22555,10 +22515,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
-<part name="U$2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
-<part name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
-<part name="U$4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 <part name="JP3" library="con-molex" deviceset="22-?-09" device="OCTHOLE"/>
 <part name="JP4" library="con-molex" deviceset="22-?-09" device="OCTHOLE"/>
 <part name="JP5" library="con-molex" deviceset="22-?-09" device="OCTHOLE"/>
@@ -22617,10 +22573,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="X1B" library="con-malina" deviceset="ARK500/2" device=""/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
-<part name="U$6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
-<part name="U$7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
-<part name="U$8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 </parts>
 <sheets>
@@ -23008,10 +22960,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="GND19" gate="1" x="195.58" y="129.54" smashed="yes">
 <attribute name="VALUE" x="193.04" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="7.62" y="7.62" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="15.24" y="7.62" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="22.86" y="7.62" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="30.48" y="7.62" smashed="yes"/>
 <instance part="JP3" gate="-1" x="358.14" y="248.92" smashed="yes">
 <attribute name="NAME" x="360.68" y="248.158" size="1.524" layer="95"/>
 <attribute name="VALUE" x="357.378" y="250.317" size="1.778" layer="96"/>
@@ -23422,10 +23370,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="GND7" gate="1" x="182.88" y="73.66" smashed="yes">
 <attribute name="VALUE" x="180.34" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="7.62" y="15.24" smashed="yes"/>
-<instance part="U$6" gate="G$1" x="15.24" y="15.24" smashed="yes"/>
-<instance part="U$7" gate="G$1" x="22.86" y="15.24" smashed="yes"/>
-<instance part="U$8" gate="G$1" x="30.48" y="15.24" smashed="yes"/>
 <instance part="S1" gate="1" x="58.42" y="71.12" smashed="yes">
 <attribute name="NAME" x="52.07" y="68.58" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.61" y="74.295" size="1.778" layer="96" rot="R90"/>
