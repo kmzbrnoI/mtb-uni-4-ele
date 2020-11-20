@@ -22506,8 +22506,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="15V"/>
 <part name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" deviceset="MC78M05BDTRKG" device="" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG"/>
-<part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1"/>
-<part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1"/>
+<part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="GREEN"/>
+<part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="RED"/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
