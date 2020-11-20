@@ -22395,6 +22395,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="PFH"/>
+<variantdef name="SVORK"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.3048" drill="0">
@@ -22515,14 +22517,30 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="con-molex" deviceset="22-?-09" device="OCTHOLE"/>
-<part name="JP4" library="con-molex" deviceset="22-?-09" device="OCTHOLE"/>
-<part name="JP5" library="con-molex" deviceset="22-?-09" device="OCTHOLE"/>
-<part name="JP6" library="con-molex" deviceset="22-?-09" device="OCTHOLE"/>
-<part name="X3" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1"/>
-<part name="X4" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1"/>
-<part name="X5" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1"/>
-<part name="X6" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1"/>
+<part name="JP3" library="con-molex" deviceset="22-?-09" device="OCTHOLE">
+<variant name="SVORK" populate="no"/>
+</part>
+<part name="JP4" library="con-molex" deviceset="22-?-09" device="OCTHOLE">
+<variant name="SVORK" populate="no"/>
+</part>
+<part name="JP5" library="con-molex" deviceset="22-?-09" device="OCTHOLE">
+<variant name="SVORK" populate="no"/>
+</part>
+<part name="JP6" library="con-molex" deviceset="22-?-09" device="OCTHOLE">
+<variant name="SVORK" populate="no"/>
+</part>
+<part name="X3" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1">
+<variant name="PFH" populate="no"/>
+</part>
+<part name="X4" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1">
+<variant name="PFH" populate="no"/>
+</part>
+<part name="X5" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1">
+<variant name="PFH" populate="no"/>
+</part>
+<part name="X6" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1">
+<variant name="PFH" populate="no"/>
+</part>
 <part name="F18" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
 <part name="F19" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
 <part name="F20" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>

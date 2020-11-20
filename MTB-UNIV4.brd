@@ -3476,6 +3476,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="PFH"/>
+<variantdef name="SVORK"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.3048" drill="0">
