@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mm" style="dots" multiple="2" display="no" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
@@ -126,11 +126,11 @@
 </polygon>
 <text x="62.23" y="26.67" size="0.8128" layer="22" rot="MR0">MTB-UNI v4.0</text>
 <text x="95.5675" y="25.7175" size="1.778" layer="21" rot="R90" align="bottom-center">MTB-UNI v4.1</text>
-<text x="101.2825" y="24.765" size="1.27" layer="21" rot="R180" align="bottom-center">RC&amp;JH
+<text x="101.2825" y="24.765" size="1.27" layer="21" rot="R180" align="bottom-center">RČ&amp;JH
 2020</text>
 <text x="101.2825" y="19.685" size="1.27" layer="21" align="top-center">LRKV
 MENDELU</text>
-<text x="101.2825" y="14.605" size="1.27" layer="21" align="top-center">KMZ Brno I</text>
+<text x="101.2825" y="14.605" size="1.27" layer="21" align="top-center">KMŽ Brno I</text>
 <text x="19.05" y="23.8125" size="0.8128" layer="21" rot="R90">RST</text>
 <text x="75.2475" y="2.8575" size="1.778" layer="21" align="center">I0</text>
 <text x="7.3025" y="5.08" size="1.778" layer="21" rot="R90" align="center">I15</text>
