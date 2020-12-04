@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -22466,7 +22466,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <sheet>
 <plain>
 <text x="289.56" y="15.24" size="6.4516" layer="97">MTB-UNI v4</text>
-<text x="289.56" y="7.62" size="2.54" layer="97">Robert Cizek, Jan Horacek
+<text x="289.56" y="7.62" size="2.54" layer="97">Robert Čížek, Jan Horáček
 2020</text>
 <text x="343.916" y="20.32" size="2.54" layer="97">v4.1</text>
 </plain>
