@@ -12313,8 +12313,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="F7" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
 <part name="F8" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
 <part name="F9" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V"/>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V"/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
@@ -12750,8 +12750,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="VALUE" x="301.244" y="41.021" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="292.1" y="58.42" smashed="yes" rot="MR90">
-<attribute name="NAME" x="294.005" y="56.642" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="296.291" y="56.642" size="1.778" layer="96" rot="MR90"/>
+<attribute name="NAME" x="294.386" y="61.087" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="294.386" y="58.293" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC3" gate="G$1" x="342.9" y="63.5" smashed="yes">
 <attribute name="NAME" x="335.28" y="71.12" size="1.778" layer="95"/>
@@ -13187,8 +13187,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="VALUE" x="135.382" y="166.5224" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="D10" gate="G$1" x="287.02" y="63.5" smashed="yes">
-<attribute name="NAME" x="289.56" y="63.9826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="289.56" y="61.1886" size="1.778" layer="96"/>
+<attribute name="NAME" x="281.94" y="69.0626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.94" y="66.2686" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
