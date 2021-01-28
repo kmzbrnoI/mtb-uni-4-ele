@@ -81,6 +81,7 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="146" name="MillingKrab" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
@@ -5561,29 +5562,29 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 Various connectors from GM and SOS
 &lt;p&gt;&lt;author&gt;Created by Michal Petrilak&lt;/author&gt;</description>
 <packages>
-<package name="ARK500/2">
-<wire x1="-2.5" y1="4" x2="-2.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3" x2="-2.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="7.5" y1="4" x2="7.5" y2="3" width="0.127" layer="21"/>
-<wire x1="7.5" y1="3" x2="7.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-2" x2="7.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="4" x2="7.5" y2="4" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-3.5" x2="6" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="6" y1="-3.5" x2="4" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-3.5" x2="1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="1" y1="-3.5" x2="-1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-1" y1="-3.5" x2="-2.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-1" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1" y1="-2" x2="1" y2="-2" width="0.127" layer="21"/>
-<wire x1="1" y1="-2" x2="4" y2="-2" width="0.127" layer="21"/>
-<wire x1="4" y1="-2" x2="6" y2="-2" width="0.127" layer="21"/>
-<wire x1="6" y1="-2" x2="7.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3" x2="7.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-1" y1="-2" x2="-1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="1" y1="-2" x2="1" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-2" x2="4" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="6" y1="-2" x2="6" y2="-3.5" width="0.127" layer="21"/>
+<package name="MVE252-5-V">
+<wire x1="-2.5" y1="4.381" x2="-2.5" y2="3.381" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3.381" x2="-2.5" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.889" x2="-2.5" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="7.5" y1="4.381" x2="7.5" y2="3.381" width="0.127" layer="21"/>
+<wire x1="7.5" y1="3.381" x2="7.5" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-2.889" x2="7.5" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="4.381" x2="7.5" y2="4.381" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-4.389" x2="6" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="6" y1="-4.389" x2="4" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.389" x2="1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="1" y1="-4.389" x2="-1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="-1" y1="-4.389" x2="-2.5" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.889" x2="-1" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.889" x2="1" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="1" y1="-2.889" x2="4" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.889" x2="6" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="6" y1="-2.889" x2="7.5" y2="-2.889" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3.381" x2="7.5" y2="3.381" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.889" x2="-1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="1" y1="-2.889" x2="1" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.889" x2="4" y2="-4.389" width="0.127" layer="21"/>
+<wire x1="6" y1="-2.889" x2="6" y2="-4.389" width="0.127" layer="21"/>
 <pad name="1" x="0" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
 <pad name="2" x="5" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
 </package>
@@ -5597,13 +5598,13 @@ Various connectors from GM and SOS
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ARK500/2" prefix="X">
+<deviceset name="MVE252-5-V">
 <gates>
-<gate name="-1" symbol="ARK2" x="0" y="2.54" addlevel="must" swaplevel="1"/>
-<gate name="-2" symbol="ARK2" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-1" symbol="ARK2" x="2.54" y="0"/>
+<gate name="-2" symbol="ARK2" x="2.54" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="ARK500/2">
+<device name="" package="MVE252-5-V">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
@@ -12397,10 +12398,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="TH5" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="X2B" library="con-malina" deviceset="ARK500/2" device=""/>
-<part name="X2A" library="con-malina" deviceset="ARK500/2" device=""/>
-<part name="X1A" library="con-malina" deviceset="ARK500/2" device=""/>
-<part name="X1B" library="con-malina" deviceset="ARK500/2" device=""/>
+<part name="X2B" library="con-malina" deviceset="MVE252-5-V" device=""/>
+<part name="X2A" library="con-malina" deviceset="MVE252-5-V" device=""/>
+<part name="X1A" library="con-malina" deviceset="MVE252-5-V" device=""/>
+<part name="X1B" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
