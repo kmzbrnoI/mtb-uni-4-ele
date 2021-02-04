@@ -2577,6 +2577,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="7.085" y="33.665" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" package="TQFP64" package3d_urn="urn:adsk.eagle:package:4325/1" value="MEGA128-A" x="40.64" y="27.94" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C6510" x="40.64" y="27.94" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="MF" value="" x="40.64" y="27.94" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="MPN" value="ATMEGA128-16AU" x="40.64" y="27.94" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="40.419171875" y="25.02834375" size="1.27" layer="26" rot="MR135"/>
@@ -2586,10 +2587,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.256815625" y="22.247928125" size="1.27" layer="28" rot="MR135"/>
 </element>
 <element name="C1" library="rcl" package="C1206" value="22pF" x="34.0975" y="41.675" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C1854" x="34.0975" y="41.675" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="35.1775" y="42.85" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="32.5775" y="44.05" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C2" library="rcl" package="C1206" value="22pF" x="40.645" y="41.675" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C1854" x="40.645" y="41.675" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="41.5925" y="42.8625" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="39.375" y="44.215" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2599,10 +2602,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="78.994" y="33.655" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C3" library="rcl" package="C1206" value="100nF" x="81.28" y="34.29" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART" value="C24497" x="81.28" y="34.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="82.695" y="33.17" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="83.82" y="36.83" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C4" library="rcl" package="C1206" value="100nF" x="28.59" y="24.775" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART" value="C24497" x="28.59" y="24.775" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="29.835" y="20.97" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="32.6925" y="21.2875" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -2611,6 +2616,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.28" y="27.895" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R1" library="rcl" package="R1206" value="10k" x="20.6375" y="20.955" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C17902" x="20.6375" y="20.955" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="23.13" y="21.7425" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="22.86" y="20.32" size="1.27" layer="28" rot="MR90"/>
 </element>
@@ -2618,42 +2624,52 @@ design rules under a new name.</description>
 <attribute name="NAME" x="20.562" y="20.2975" size="1.27" layer="25"/>
 </element>
 <element name="C7" library="rcl" package="C1206" value="22uF" x="100.965" y="24.765" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C12891" x="100.965" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="103.44" y="25.43" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="103.1875" y="22.225" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C8" library="rcl" package="C1206" value="22uF" x="101.9175" y="12.7" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C12891" x="101.9175" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="101.3525" y="11.1675" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="100.965" y="6.35" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="F1" library="adafruit_edited" package="R1206" value="200mA" x="95.5675" y="42.8625" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C70067" x="95.5675" y="42.8625" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="92.75" y="42.005" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="93.3925" y="41.5925" size="1.016" layer="28" rot="MR180"/>
 </element>
 <element name="C9" library="rcl" package="C1206" value="100nF" x="41.435" y="21.53" smashed="yes">
+<attribute name="LCSC_PART" value="C17944" x="41.435" y="21.53" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="42.7025" y="24.19" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="37.3075" y="22.8" size="1.27" layer="27"/>
 </element>
 <element name="R3" library="rcl" package="R1206" value="2k2" x="39.37" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="39.37" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="39.551053125" y="14.850390625" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="39.633025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R4" library="rcl" package="R1206" value="2k2" x="35.56" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="35.56" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="35.741053125" y="14.850390625" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="35.823025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R5" library="rcl" package="R1206" value="2k2" x="31.75" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="31.75" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="31.931053125" y="14.850390625" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="32.013025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R6" library="rcl" package="R1206" value="2k2" x="27.94" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="27.94" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="28.121053125" y="14.850390625" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="28.203025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R7" library="rcl" package="R1206" value="2k2" x="24.13" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="24.13" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="24.311053125" y="14.850390625" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="24.393025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R8" library="rcl" package="R1206" value="2k2" x="20.32" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="20.32" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="20.501053125" y="14.850390625" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="20.583025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
@@ -2662,38 +2678,47 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.773025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R10" library="rcl" package="R1206" value="2k2" x="12.7" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="12.7" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="13.126446875" y="14.9225" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="12.963025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R11" library="rcl" package="R1206" value="2k2" x="71.12" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="71.12" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="71.228946875" y="15.24" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="71.383025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R12" library="rcl" package="R1206" value="2k2" x="67.31" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="67.31" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="67.418946875" y="15.24" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="67.573025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R13" library="rcl" package="R1206" value="2k2" x="63.5" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="63.5" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="63.608946875" y="15.24" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="63.763025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R14" library="rcl" package="R1206" value="2k2" x="59.69" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="59.69" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="59.798946875" y="15.24" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="59.953025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R15" library="rcl" package="R1206" value="2k2" x="55.88" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="55.88" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="55.988946875" y="15.24" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="56.143025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R16" library="rcl" package="R1206" value="2k2" x="52.07" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="52.07" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="52.178946875" y="14.9225" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="52.333025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R17" library="rcl" package="R1206" value="2k2" x="48.26" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="48.26" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="48.368946875" y="14.9225" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="48.523025" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
 <element name="R18" library="rcl" package="R1206" value="2k2" x="44.45" y="12.3825" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C17944" x="44.45" y="12.3825" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="44.558946875" y="14.9225" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="45.030525" y="15.711575" size="1.27" layer="28" rot="MR225"/>
 </element>
@@ -2728,60 +2753,74 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="68.58" y="26.035" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="F2" library="adafruit_edited" package="R1206S" value="200mA" x="4.7625" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="4.7625" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="6.104978125" y="44.117334375" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="4.1610875" y="39.8845125" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="F3" library="adafruit_edited" package="R1206S" value="200mA" x="8.255" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="8.255" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="9.914978125" y="44.11733125" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="7.6535875" y="39.884509375" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="F4" library="adafruit_edited" package="R1206S" value="200mA" x="11.7475" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="11.7475" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="13.407478125" y="44.11733125" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="11.1460875" y="39.884509375" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="F5" library="adafruit_edited" package="R1206S" value="200mA" x="15.24" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="15.24" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="16.899978125" y="44.11733125" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="14.6385875" y="39.884509375" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="F6" library="adafruit_edited" package="R1206S" value="200mA" x="18.7325" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="18.7325" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="20.074978125" y="44.11733125" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="18.1310875" y="39.884509375" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="F7" library="adafruit_edited" package="R1206S" value="200mA" x="22.225" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="22.225" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="23.567478125" y="43.79983125" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="21.6235875" y="39.884509375" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="F8" library="adafruit_edited" package="R1206S" value="200mA" x="25.7175" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="25.7175" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="27.059978125" y="43.79983125" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="25.1160875" y="39.884509375" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="F9" library="adafruit_edited" package="R1206S" value="200mA" x="29.21" y="42.2275" smashed="yes" rot="MR135">
+<attribute name="LCSC_PART" value="C70067" x="29.21" y="42.2275" size="1.778" layer="28" rot="MR135" display="off"/>
 <attribute name="NAME" x="30.552478125" y="44.11733125" size="0.8128" layer="26" rot="MR135"/>
 <attribute name="VALUE" x="28.2910875" y="39.567009375" size="0.6096" layer="28" rot="MR135"/>
 </element>
 <element name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V" x="2.54" y="33.02" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C353849" x="2.54" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="6.66" y="32.52" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="2.54" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="7.62" y="32.385" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V" x="74.8125" y="44.41" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C353849" x="74.8125" y="44.41" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="76.765" y="45.1475" size="1.27" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="3" x="74.8125" y="44.41" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="72.9075" y="47.585" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R20" library="rcl" package="R1206" value="2k2" x="74.855" y="50.0225" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C17944" x="74.855" y="50.0225" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="69.33" y="50.8875" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="72.6325" y="49.705" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R19" library="rcl" package="R1206" value="2k2" x="2.54" y="27.305" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C17944" x="2.54" y="27.305" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="4.1675" y="24.7" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="1.27" y="26.035" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C14" library="rcl" package="C1206" value="100nF" x="2.54" y="36.195" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C24497" x="2.54" y="36.195" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="0.7675" y="38.8125" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="5.08" y="37.465" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C15" library="rcl" package="C1206" value="100nF" x="2.54" y="29.845" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C24497" x="2.54" y="29.845" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="4.7225" y="29.275" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="6.35" y="33.655" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -2794,50 +2833,62 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="92.0925" y="41.9625" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="F10" library="adafruit_edited" package="R1206S" value="200mA" x="47.3075" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="47.3075" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="45.41766875" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="48.380490625" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="F11" library="adafruit_edited" package="R1206S" value="200mA" x="50.8" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="50.8" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="48.910165625" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="51.8729875" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="F12" library="adafruit_edited" package="R1206S" value="200mA" x="54.2925" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="54.2925" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="52.402665625" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="55.3654875" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="F13" library="adafruit_edited" package="R1206S" value="200mA" x="57.785" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="57.785" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="55.895165625" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="58.8579875" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="F14" library="adafruit_edited" package="R1206S" value="200mA" x="61.2775" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="61.2775" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="59.387665625" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="62.3504875" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="F15" library="adafruit_edited" package="R1206S" value="200mA" x="64.77" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="64.77" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="62.880165625" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="65.5254875" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="F16" library="adafruit_edited" package="R1206S" value="200mA" x="68.2625" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="68.2625" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="66.372665625" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="69.0179875" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="F17" library="adafruit_edited" package="R1206S" value="200mA" x="71.755" y="41.91" smashed="yes" rot="MR45">
+<attribute name="LCSC_PART" value="C70067" x="71.755" y="41.91" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="69.865165625" y="43.252478125" size="0.8128" layer="26" rot="MR45"/>
 <attribute name="VALUE" x="72.5104875" y="42.8960875" size="0.6096" layer="28" rot="MR45"/>
 </element>
 <element name="C16" library="rcl" package="C1206" value="100nF" x="76.8025" y="41.0125" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C24497" x="76.8025" y="41.0125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="79.0025" y="39.9725" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="79.025" y="41.6475" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C17" library="rcl" package="C1206" value="100nF" x="74.855" y="47.5225" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C24497" x="74.855" y="47.5225" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="77.4775" y="48.375" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="76.9375" y="45.01" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C12" library="rcl" package="C1206" value="100nF" x="95.5675" y="40.005" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C24497" x="95.5675" y="40.005" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="92.8375" y="39.275" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="96.8375" y="37.465" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R2" library="rcl" package="R1206" value="2k2" x="97.16" y="27.325" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C17944" x="97.16" y="27.325" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="94.52" y="26.7375" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="92.08" y="27.96" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2846,6 +2897,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="99.695" y="36.83" size="1.27" layer="28" ratio="10" rot="MR270"/>
 </element>
 <element name="C13" library="rcl" package="C1206" value="100nF" x="97.16" y="29.5875" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C24497" x="97.16" y="29.5875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="94.7375" y="28.92" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="94.9375" y="28.9525" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -2857,6 +2909,7 @@ design rules under a new name.</description>
 <element name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" package="MC78M05BDTRKG" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG" x="99.06" y="19.3675" smashed="yes" rot="MR270">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY_PN" value="MC78M05BDTRKGOSCT-ND" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" value="C54285" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="IC REG LINEAR 5V 500MA DPAK" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="101.71" y="19.8275" size="1.27" layer="26" rot="MR180"/>
@@ -2922,51 +2975,63 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="66.525" y="1.055" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="F18" library="adafruit_edited" package="R1206S" value="50mA" x="39.6875" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="39.6875" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="38.71983125" y="8.50001875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="38.297009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F19" library="adafruit_edited" package="R1206S" value="50mA" x="35.8775" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="35.8775" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="34.90983125" y="8.50001875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="34.487009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F20" library="adafruit_edited" package="R1206S" value="50mA" x="32.0675" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="32.0675" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="31.09983125" y="8.50001875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="30.677009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F21" library="adafruit_edited" package="R1206S" value="50mA" x="28.2575" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="28.2575" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="26.97233125" y="8.50001875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="26.867009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F22" library="adafruit_edited" package="R1206S" value="50mA" x="24.4475" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="24.4475" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="23.47983125" y="8.50001875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="23.057009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F23" library="adafruit_edited" package="R1206S" value="50mA" x="20.6375" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="20.6375" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="19.66983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="19.247009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F24" library="adafruit_edited" package="R1206S" value="50mA" x="16.8275" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="16.8275" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="15.85983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="15.437009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F25" library="adafruit_edited" package="R1206S" value="50mA" x="13.0175" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="13.0175" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="12.04983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="11.627009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1" x="3.81" y="13.6525" smashed="yes" rot="MR180">
+<attribute name="LCSC_PART" value="C353849" x="3.81" y="13.6525" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="7.97" y="13.2575" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="-1.27" y="13.6525" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="5.715" y="14.2875" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R23" library="rcl" package="R1206" value="2k2" x="3.81" y="17.145" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C17944" x="3.81" y="17.145" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="6.54" y="17.875" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="8.5725" y="16.51" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C18" library="rcl" package="C1206" value="100nF" x="3.81" y="10.16" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C24497" x="3.81" y="10.16" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="5.525" y="7.7075" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="6.35" y="7.62" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C19" library="rcl" package="C1206" value="100nF" x="3.81" y="19.685" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C24497" x="3.81" y="19.685" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="6.54" y="20.415" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="6.35" y="20.955" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -2975,51 +3040,63 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="5.3975" y="13.97" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="F26" library="adafruit_edited" package="R1206S" value="50mA" x="71.4375" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LSCS_PART" value="C261946" x="71.4375" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="70.15233125" y="8.50001875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="70.047009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F27" library="adafruit_edited" package="R1206S" value="50mA" x="67.6275" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="67.6275" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="66.34233125" y="8.50001875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="66.237009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F28" library="adafruit_edited" package="R1206S" value="50mA" x="63.8175" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="63.8175" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="62.84983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="62.427009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F29" library="adafruit_edited" package="R1206S" value="50mA" x="60.0075" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="60.0075" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="59.03983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="58.617009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F30" library="adafruit_edited" package="R1206S" value="50mA" x="56.1975" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="56.1975" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="55.22983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="54.807009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F31" library="adafruit_edited" package="R1206S" value="50mA" x="52.3875" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="52.3875" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="51.41983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="50.997009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F32" library="adafruit_edited" package="R1206S" value="50mA" x="48.5775" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="48.5775" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="47.60983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="47.187009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="F33" library="adafruit_edited" package="R1206S" value="50mA" x="44.7675" y="8.89" smashed="yes" rot="MR225">
+<attribute name="LCSC_PART" value="C261946" x="44.7675" y="8.89" size="1.778" layer="28" rot="MR225" display="off"/>
 <attribute name="NAME" x="43.79983125" y="8.18251875" size="0.8128" layer="26" rot="MR225"/>
 <attribute name="VALUE" x="43.377009375" y="8.856409375" size="0.6096" layer="28" rot="MR225"/>
 </element>
 <element name="D22" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1" x="78.645" y="11.385" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART" value="C353849" x="78.645" y="11.385" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="80.3675" y="7.9475" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="1296.575" y="16.465" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="81.82" y="13.29" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R24" library="rcl" package="R1206" value="2k2" x="82.075" y="11.4725" smashed="yes" rot="MR90">
+<attribute name="LCSC_PART" value="C17944" x="82.075" y="11.4725" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="82.4875" y="9.06" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="81.44" y="14.0125" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C20" library="rcl" package="C1206" value="100nF" x="75.01" y="11.47" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART" value="C24497" x="75.01" y="11.47" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="75.74" y="8.74" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="75.645" y="9.2475" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C21" library="rcl" package="C1206" value="100nF" x="84.575" y="11.4725" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART" value="C24497" x="84.575" y="11.4725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="87.21" y="12.87" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="87.115" y="14.0125" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -3036,6 +3113,7 @@ design rules under a new name.</description>
 <element name="X1A" library="con-malina" package="MVE252-5-V" value="MVE252-5-V" x="84.7725" y="47.3075" smashed="yes" rot="R180"/>
 <element name="X1B" library="con-malina" package="MVE252-5-V" value="MVE252-5-V" x="94.9325" y="47.3075" smashed="yes" rot="R180"/>
 <element name="R25" library="rcl" package="R1206" value="10k" x="78.74" y="34.29" smashed="yes" rot="MR270">
+<attribute name="LCSC_PART" value="C17902" x="78.74" y="34.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="77.47" y="35.56" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="77.47" y="35.56" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -3089,6 +3167,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="48.26" y="14.9225" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="SM4007PL" x="101.2825" y="40.005" smashed="yes" rot="MR0">
+<attribute name="LCSC_PART" value="C64898" x="101.2825" y="40.005" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="104.3305" y="41.148" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="0" x="101.2825" y="40.005" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="104.3305" y="37.592" size="1.27" layer="28" rot="MR0"/>

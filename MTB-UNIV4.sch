@@ -12258,45 +12258,95 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA128" device="-A" package3d_urn="urn:adsk.eagle:package:4325/1"/>
+<part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA128" device="-A" package3d_urn="urn:adsk.eagle:package:4325/1">
+<attribute name="LCSC_PART" value="C6510"/>
+</part>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="22pF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="22pF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="22pF">
+<attribute name="LCSC_PART" value="C1854"/>
+</part>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="22pF">
+<attribute name="LCSC_PART" value="C1854"/>
+</part>
 <part name="IC2" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL8" device="" package3d_urn="urn:adsk.eagle:package:29519/2" value="SN75176BP"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k">
+<attribute name="LCSC_PART" value="C17902"/>
+</part>
 <part name="JPROG" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="22uF"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="22uF"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="22uF">
+<attribute name="LCSC_PART" value="C12891"/>
+</part>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="22uF">
+<attribute name="LCSC_PART" value="C12891"/>
+</part>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="F1" library="adafruit_edited" deviceset="PTCFUSE" device="-1206" value="200mA"/>
+<part name="F1" library="adafruit_edited" deviceset="PTCFUSE" device="-1206" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R18" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
 <part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="10k"/>
 <part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="10k"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -12305,38 +12355,94 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN08" device="" package3d_urn="urn:adsk.eagle:package:24977/1" value="10k"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="F2" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F3" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F4" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F5" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F6" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F7" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F8" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F9" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="F2" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F3" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F4" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F5" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F6" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F7" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F8" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F9" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V">
+<attribute name="LCSC_PART" value="C353849"/>
+</part>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V">
+<attribute name="LCSC_PART" value="C353849"/>
+</part>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
+<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
 <part name="TH1" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
 <part name="TH2" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
-<part name="F10" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F11" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F12" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F13" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F14" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F15" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F16" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="F17" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
+<part name="F10" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F11" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F12" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F13" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F14" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F15" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F16" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="F17" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
+<attribute name="LCSC_PART" value="C70067"/>
+</part>
+<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
+<part name="C17" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
+<part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
 <part name="TH3" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BZX84C18"/>
-<part name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" deviceset="MC78M05BDTRKG" device="" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG"/>
+<part name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" deviceset="MC78M05BDTRKG" device="" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG">
+<attribute name="LCSC_PART" value="C54285"/>
+</part>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="GREEN"/>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="RED"/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
@@ -12370,31 +12476,79 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="X6" library="con-phoenix-350" deviceset="1751316" device="" package3d_urn="urn:adsk.eagle:package:9406/1">
 <variant name="PFH" populate="no"/>
 </part>
-<part name="F18" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F19" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F20" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F21" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F22" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F23" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F24" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F25" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="C18" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="F18" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F19" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F20" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F21" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F22" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F23" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F24" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F25" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1">
+<attribute name="LCSC_PART" value="C353849"/>
+</part>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="C18" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
+<part name="C19" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
 <part name="TH4" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
-<part name="F26" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F27" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F28" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F29" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F30" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F31" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F32" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="F33" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA"/>
-<part name="D22" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1"/>
-<part name="R24" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
-<part name="C20" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
+<part name="F26" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LSCS_PART" value="C261946"/>
+</part>
+<part name="F27" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F28" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F29" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F30" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F31" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F32" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="F33" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
+<attribute name="LCSC_PART" value="C261946"/>
+</part>
+<part name="D22" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1">
+<attribute name="LCSC_PART" value="C353849"/>
+</part>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R1206" value="2k2">
+<attribute name="LCSC_PART" value="C17944"/>
+</part>
+<part name="C20" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
+<part name="C21" library="rcl" deviceset="C-EU" device="C1206" value="100nF">
+<attribute name="LCSC_PART" value="C24497"/>
+</part>
 <part name="TH5" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
@@ -12402,7 +12556,9 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="X2A" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="X1A" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="X1B" library="con-malina" deviceset="MVE252-5-V" device=""/>
-<part name="R25" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="R25" library="rcl" deviceset="R-EU_" device="R1206" value="10k">
+<attribute name="LCSC_PART" value="C17902"/>
+</part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="D23" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
@@ -12413,7 +12569,9 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
-<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="SM4007PL"/>
+<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="SM4007PL">
+<attribute name="LCSC_PART" value="C64898"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12491,10 +12649,12 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="C3" gate="G$1" x="203.2" y="99.06" smashed="yes">
 <attribute name="NAME" x="204.724" y="99.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.724" y="94.361" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="203.2" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="332.74" y="104.14" smashed="yes">
 <attribute name="NAME" x="334.264" y="104.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="334.264" y="99.441" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="332.74" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="55.88" y="91.44" smashed="yes">
 <attribute name="NAME" x="57.404" y="91.821" size="1.778" layer="95"/>
@@ -12503,6 +12663,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="R1" gate="G$1" x="55.88" y="127" smashed="yes">
 <attribute name="NAME" x="52.07" y="128.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="123.698" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="55.88" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JPROG" gate="G$1" x="304.8" y="106.68" smashed="yes">
 <attribute name="NAME" x="302.26" y="99.06" size="1.778" layer="95"/>
@@ -12510,10 +12671,12 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="C7" gate="G$1" x="325.12" y="55.88" smashed="yes">
 <attribute name="NAME" x="326.644" y="56.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="326.644" y="51.181" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="325.12" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="365.76" y="55.88" smashed="yes">
 <attribute name="NAME" x="367.284" y="56.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="367.284" y="51.181" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="365.76" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+7" gate="1" x="365.76" y="73.66" smashed="yes">
 <attribute name="VALUE" x="363.22" y="68.58" size="1.778" layer="96" rot="R90"/>
@@ -12527,6 +12690,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="F1" gate="G$1" x="274.32" y="60.96" smashed="yes">
 <attribute name="VALUE" x="270.51" y="59.69" size="1.778" layer="96"/>
 <attribute name="NAME" x="270.51" y="66.04" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="274.32" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
@@ -12536,30 +12700,37 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="C9" gate="G$1" x="45.72" y="91.44" smashed="yes">
 <attribute name="NAME" x="47.244" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="47.244" y="86.741" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="45.72" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="30.48" y="246.38" smashed="yes">
 <attribute name="NAME" x="29.21" y="247.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.21" y="243.078" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="30.48" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="38.1" y="243.84" smashed="yes">
 <attribute name="NAME" x="36.83" y="245.3386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="240.538" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="38.1" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="45.72" y="241.3" smashed="yes">
 <attribute name="NAME" x="44.45" y="242.7986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.45" y="237.998" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="45.72" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="53.34" y="238.76" smashed="yes">
 <attribute name="NAME" x="52.07" y="240.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="235.458" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="53.34" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="60.96" y="236.22" smashed="yes">
 <attribute name="NAME" x="59.69" y="237.7186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.69" y="232.918" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="60.96" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="68.58" y="233.68" smashed="yes">
 <attribute name="NAME" x="67.31" y="235.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.31" y="230.378" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="68.58" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="76.2" y="231.14" smashed="yes">
 <attribute name="NAME" x="74.93" y="232.6386" size="1.778" layer="95"/>
@@ -12568,38 +12739,47 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="R10" gate="G$1" x="83.82" y="228.6" smashed="yes">
 <attribute name="NAME" x="82.55" y="230.0986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.55" y="225.298" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="83.82" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="30.48" y="185.42" smashed="yes">
 <attribute name="NAME" x="29.21" y="186.9186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.21" y="182.118" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="30.48" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="38.1" y="182.88" smashed="yes">
 <attribute name="NAME" x="36.83" y="184.3786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.83" y="179.578" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="38.1" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="45.72" y="180.34" smashed="yes">
 <attribute name="NAME" x="44.45" y="181.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="44.45" y="177.038" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="45.72" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="53.34" y="177.8" smashed="yes">
 <attribute name="NAME" x="52.07" y="179.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="174.498" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="53.34" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="60.96" y="175.26" smashed="yes">
 <attribute name="NAME" x="59.69" y="176.7586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.69" y="171.958" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="60.96" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="68.58" y="172.72" smashed="yes">
 <attribute name="NAME" x="67.31" y="174.2186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="67.31" y="169.418" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="68.58" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="76.2" y="170.18" smashed="yes">
 <attribute name="NAME" x="74.93" y="171.6786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.93" y="166.878" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="76.2" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="83.82" y="167.64" smashed="yes">
 <attribute name="NAME" x="82.55" y="169.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.55" y="164.338" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="83.82" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="RN1" gate="1" x="50.8" y="248.92" smashed="yes">
 <attribute name="NAME" x="48.26" y="251.46" size="1.778" layer="95"/>
@@ -12632,58 +12812,72 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="F2" gate="G$1" x="342.9" y="246.38" smashed="yes">
 <attribute name="VALUE" x="339.09" y="245.11" size="1.778" layer="96"/>
 <attribute name="NAME" x="339.09" y="251.46" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="342.9" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F3" gate="G$1" x="335.28" y="243.84" smashed="yes">
 <attribute name="VALUE" x="331.47" y="242.57" size="1.778" layer="96"/>
 <attribute name="NAME" x="331.47" y="248.92" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="335.28" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F4" gate="G$1" x="327.66" y="241.3" smashed="yes">
 <attribute name="VALUE" x="323.85" y="240.03" size="1.778" layer="96"/>
 <attribute name="NAME" x="323.85" y="246.38" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="327.66" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F5" gate="G$1" x="320.04" y="238.76" smashed="yes">
 <attribute name="VALUE" x="316.23" y="237.49" size="1.778" layer="96"/>
 <attribute name="NAME" x="316.23" y="243.84" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="320.04" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F6" gate="G$1" x="312.42" y="236.22" smashed="yes">
 <attribute name="VALUE" x="308.61" y="234.95" size="1.778" layer="96"/>
 <attribute name="NAME" x="308.61" y="241.3" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="312.42" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F7" gate="G$1" x="304.8" y="233.68" smashed="yes">
 <attribute name="VALUE" x="300.99" y="232.41" size="1.778" layer="96"/>
 <attribute name="NAME" x="300.99" y="238.76" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="304.8" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F8" gate="G$1" x="297.18" y="231.14" smashed="yes">
 <attribute name="VALUE" x="293.37" y="229.87" size="1.778" layer="96"/>
 <attribute name="NAME" x="293.37" y="236.22" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="297.18" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F9" gate="G$1" x="289.56" y="228.6" smashed="yes">
 <attribute name="VALUE" x="285.75" y="227.33" size="1.778" layer="96"/>
 <attribute name="NAME" x="285.75" y="233.68" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="289.56" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="297.18" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="295.275" y="221.742" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="300.609" y="221.742" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="297.18" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="297.18" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="295.275" y="163.322" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="300.609" y="163.322" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="297.18" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="297.18" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="295.6814" y="148.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="300.482" y="148.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="297.18" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="297.18" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="295.6814" y="207.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="300.482" y="207.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="297.18" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="284.48" y="215.9" smashed="yes">
 <attribute name="NAME" x="286.004" y="216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="286.004" y="211.201" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="284.48" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="307.34" y="210.82" smashed="yes">
 <attribute name="NAME" x="308.864" y="211.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="308.864" y="206.121" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="307.34" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TH1" gate="G$1" x="317.5" y="220.98" smashed="yes">
 <attribute name="NAME" x="320.04" y="220.98" size="1.778" layer="95"/>
@@ -12696,46 +12890,57 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="F10" gate="G$1" x="342.9" y="187.96" smashed="yes">
 <attribute name="VALUE" x="339.09" y="186.69" size="1.778" layer="96"/>
 <attribute name="NAME" x="339.09" y="193.04" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="342.9" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F11" gate="G$1" x="335.28" y="185.42" smashed="yes">
 <attribute name="VALUE" x="331.47" y="184.15" size="1.778" layer="96"/>
 <attribute name="NAME" x="331.47" y="190.5" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="335.28" y="185.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F12" gate="G$1" x="327.66" y="182.88" smashed="yes">
 <attribute name="VALUE" x="323.85" y="181.61" size="1.778" layer="96"/>
 <attribute name="NAME" x="323.85" y="187.96" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="327.66" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F13" gate="G$1" x="320.04" y="180.34" smashed="yes">
 <attribute name="VALUE" x="316.23" y="179.07" size="1.778" layer="96"/>
 <attribute name="NAME" x="316.23" y="185.42" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="320.04" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F14" gate="G$1" x="312.42" y="177.8" smashed="yes">
 <attribute name="VALUE" x="308.61" y="176.53" size="1.778" layer="96"/>
 <attribute name="NAME" x="308.61" y="182.88" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="312.42" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F15" gate="G$1" x="304.8" y="175.26" smashed="yes">
 <attribute name="VALUE" x="300.99" y="173.99" size="1.778" layer="96"/>
 <attribute name="NAME" x="300.99" y="180.34" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="304.8" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F16" gate="G$1" x="297.18" y="172.72" smashed="yes">
 <attribute name="VALUE" x="293.37" y="171.45" size="1.778" layer="96"/>
 <attribute name="NAME" x="293.37" y="177.8" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="297.18" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F17" gate="G$1" x="289.56" y="170.18" smashed="yes">
 <attribute name="VALUE" x="285.75" y="168.91" size="1.778" layer="96"/>
 <attribute name="NAME" x="285.75" y="175.26" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="289.56" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="284.48" y="157.48" smashed="yes">
 <attribute name="NAME" x="286.004" y="157.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="286.004" y="152.781" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="284.48" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="307.34" y="152.4" smashed="yes">
 <attribute name="NAME" x="308.864" y="152.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="308.864" y="147.701" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="307.34" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="281.94" y="53.34" smashed="yes">
 <attribute name="NAME" x="283.464" y="53.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.464" y="48.641" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="281.94" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="292.1" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="290.6014" y="41.91" size="1.778" layer="95" rot="R90"/>
@@ -12748,6 +12953,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="C13" gate="G$1" x="299.72" y="45.72" smashed="yes">
 <attribute name="NAME" x="301.244" y="46.101" size="1.778" layer="95"/>
 <attribute name="VALUE" x="301.244" y="41.021" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="299.72" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="292.1" y="58.42" smashed="yes" rot="MR90">
 <attribute name="NAME" x="294.386" y="61.087" size="1.778" layer="95" rot="MR180"/>
@@ -12756,6 +12962,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="IC3" gate="G$1" x="342.9" y="63.5" smashed="yes">
 <attribute name="NAME" x="335.28" y="71.12" size="1.778" layer="95"/>
 <attribute name="VALUE" x="335.28" y="55.88" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="342.9" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="147.32" y="76.2" smashed="yes">
 <attribute name="NAME" x="150.876" y="71.628" size="1.778" layer="95" rot="R90"/>
@@ -13011,50 +13218,62 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="F18" gate="G$1" x="116.84" y="243.84" smashed="yes">
 <attribute name="VALUE" x="113.03" y="242.57" size="1.778" layer="96"/>
 <attribute name="NAME" x="115.57" y="248.92" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="116.84" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F19" gate="G$1" x="124.46" y="241.3" smashed="yes">
 <attribute name="VALUE" x="120.65" y="240.03" size="1.778" layer="96"/>
 <attribute name="NAME" x="123.19" y="246.38" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="124.46" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F20" gate="G$1" x="132.08" y="238.76" smashed="yes">
 <attribute name="VALUE" x="128.27" y="237.49" size="1.778" layer="96"/>
 <attribute name="NAME" x="130.81" y="243.84" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="132.08" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F21" gate="G$1" x="139.7" y="236.22" smashed="yes">
 <attribute name="VALUE" x="135.89" y="234.95" size="1.778" layer="96"/>
 <attribute name="NAME" x="138.43" y="241.3" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="139.7" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F22" gate="G$1" x="147.32" y="233.68" smashed="yes">
 <attribute name="VALUE" x="143.51" y="232.41" size="1.778" layer="96"/>
 <attribute name="NAME" x="146.05" y="238.76" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="147.32" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F23" gate="G$1" x="157.48" y="231.14" smashed="yes">
 <attribute name="VALUE" x="153.67" y="229.87" size="1.778" layer="96"/>
 <attribute name="NAME" x="153.67" y="236.22" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="157.48" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F24" gate="G$1" x="165.1" y="228.6" smashed="yes">
 <attribute name="VALUE" x="161.29" y="227.33" size="1.778" layer="96"/>
 <attribute name="NAME" x="163.83" y="233.68" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="165.1" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F25" gate="G$1" x="172.72" y="226.06" smashed="yes">
 <attribute name="VALUE" x="168.91" y="224.79" size="1.778" layer="96"/>
 <attribute name="NAME" x="171.45" y="231.14" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="172.72" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D5" gate="G$1" x="129.54" y="213.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="127.635" y="211.582" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.969" y="211.582" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="116.84" y="208.28" smashed="yes">
 <attribute name="NAME" x="113.03" y="209.7786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="204.978" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="116.84" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="101.6" y="213.36" smashed="yes" rot="MR0">
 <attribute name="NAME" x="100.076" y="213.741" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="100.076" y="208.661" size="1.778" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="101.6" y="213.36" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="129.54" y="200.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="128.016" y="200.279" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="128.016" y="205.359" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="129.54" y="200.66" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="TH4" gate="G$1" x="139.7" y="210.82" smashed="yes">
 <attribute name="NAME" x="142.24" y="210.82" size="1.778" layer="95"/>
@@ -13063,50 +13282,62 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="F26" gate="G$1" x="119.38" y="182.88" smashed="yes">
 <attribute name="VALUE" x="115.57" y="181.61" size="1.778" layer="96"/>
 <attribute name="NAME" x="118.11" y="187.96" size="1.778" layer="95"/>
+<attribute name="LSCS_PART" x="119.38" y="182.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F27" gate="G$1" x="127" y="180.34" smashed="yes">
 <attribute name="VALUE" x="123.19" y="179.07" size="1.778" layer="96"/>
 <attribute name="NAME" x="125.73" y="185.42" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="127" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F28" gate="G$1" x="134.62" y="177.8" smashed="yes">
 <attribute name="VALUE" x="130.81" y="176.53" size="1.778" layer="96"/>
 <attribute name="NAME" x="133.35" y="182.88" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="134.62" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F29" gate="G$1" x="142.24" y="175.26" smashed="yes">
 <attribute name="VALUE" x="138.43" y="173.99" size="1.778" layer="96"/>
 <attribute name="NAME" x="140.97" y="180.34" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="142.24" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F30" gate="G$1" x="149.86" y="172.72" smashed="yes">
 <attribute name="VALUE" x="146.05" y="171.45" size="1.778" layer="96"/>
 <attribute name="NAME" x="148.59" y="177.8" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="149.86" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F31" gate="G$1" x="157.48" y="170.18" smashed="yes">
 <attribute name="VALUE" x="153.67" y="168.91" size="1.778" layer="96"/>
 <attribute name="NAME" x="156.21" y="175.26" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="157.48" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F32" gate="G$1" x="165.1" y="167.64" smashed="yes">
 <attribute name="VALUE" x="161.29" y="166.37" size="1.778" layer="96"/>
 <attribute name="NAME" x="163.83" y="172.72" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="165.1" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F33" gate="G$1" x="172.72" y="165.1" smashed="yes">
 <attribute name="VALUE" x="168.91" y="163.83" size="1.778" layer="96"/>
 <attribute name="NAME" x="171.45" y="170.18" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="172.72" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D22" gate="G$1" x="129.54" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="127.635" y="150.622" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.969" y="150.622" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="129.54" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="119.38" y="147.32" smashed="yes">
 <attribute name="NAME" x="115.57" y="148.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.57" y="144.018" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="119.38" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="101.6" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="100.076" y="152.781" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="100.076" y="147.701" size="1.778" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="101.6" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="129.54" y="142.24" smashed="yes">
 <attribute name="NAME" x="131.064" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="131.064" y="137.541" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="129.54" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TH5" gate="G$1" x="139.7" y="149.86" smashed="yes">
 <attribute name="NAME" x="142.24" y="149.86" size="1.778" layer="95"/>
@@ -13146,6 +13377,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="R25" gate="G$1" x="182.88" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="181.3814" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="186.182" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="182.88" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="182.88" y="73.66" smashed="yes">
 <attribute name="VALUE" x="180.34" y="71.12" size="1.778" layer="96"/>
@@ -13189,6 +13421,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="D10" gate="G$1" x="287.02" y="63.5" smashed="yes">
 <attribute name="NAME" x="281.94" y="69.0626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="281.94" y="66.2686" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="287.02" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
