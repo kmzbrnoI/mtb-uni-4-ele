@@ -12576,10 +12576,15 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <sheets>
 <sheet>
 <plain>
-<text x="289.56" y="15.24" size="6.4516" layer="97">MTB-UNI v4</text>
-<text x="289.56" y="7.62" size="2.54" layer="97">Robert Čížek, Jan Horáček
-2020</text>
-<text x="343.916" y="20.32" size="2.54" layer="97">v4.1</text>
+<text x="289.56" y="19.05" size="3.81" layer="97">MTB-UNI v4</text>
+<text x="289.56" y="5.08" size="2.54" layer="97">Robert Čížek, Jan Horáček
+KMŽ Brno I, LRKV MENDELU
+2020-2021</text>
+<text x="375.158" y="5.08" size="2.54" layer="94">v4.1</text>
+<text x="344.17" y="20.32" size="2.54" layer="94">All</text>
+<text x="335.28" y="25.4" size="1.9304" layer="97" align="bottom-center">Released under the Creative Commons Attribution-ShareAlike 4.0 License
+https://creativecommons.org/licenses/by-sa/4.0/
+https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="38.1" y="111.76" smashed="yes">
@@ -12597,8 +12602,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="P+1" gate="1" x="66.04" y="132.08" smashed="yes">
 <attribute name="VALUE" x="63.5" y="127" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="325.12" y="91.44" smashed="yes">
-<attribute name="VALUE" x="322.58" y="88.9" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="325.12" y="96.52" smashed="yes">
+<attribute name="VALUE" x="322.58" y="93.98" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="284.48" y="139.7" smashed="yes">
 <attribute name="VALUE" x="281.94" y="137.16" size="1.778" layer="96"/>
@@ -12619,8 +12624,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <instance part="GND6" gate="1" x="66.04" y="10.16" smashed="yes">
 <attribute name="VALUE" x="63.5" y="7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="325.12" y="116.84" smashed="yes">
-<attribute name="VALUE" x="322.58" y="111.76" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="325.12" y="121.92" smashed="yes">
+<attribute name="VALUE" x="322.58" y="116.84" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C1" gate="G$1" x="33.02" y="106.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="31.496" y="107.061" size="1.778" layer="95" rot="MR0"/>
@@ -12651,10 +12656,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="VALUE" x="204.724" y="94.361" size="1.778" layer="96"/>
 <attribute name="LCSC_PART" x="203.2" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C4" gate="G$1" x="332.74" y="104.14" smashed="yes">
-<attribute name="NAME" x="334.264" y="104.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="334.264" y="99.441" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="332.74" y="104.14" size="1.778" layer="96" display="off"/>
+<instance part="C4" gate="G$1" x="332.74" y="109.22" smashed="yes">
+<attribute name="NAME" x="334.264" y="109.601" size="1.778" layer="95"/>
+<attribute name="VALUE" x="334.264" y="104.521" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="332.74" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="55.88" y="91.44" smashed="yes">
 <attribute name="NAME" x="57.404" y="91.821" size="1.778" layer="95"/>
@@ -12665,32 +12670,32 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="VALUE" x="52.07" y="123.698" size="1.778" layer="96"/>
 <attribute name="LCSC_PART" x="55.88" y="127" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JPROG" gate="G$1" x="304.8" y="106.68" smashed="yes">
-<attribute name="NAME" x="302.26" y="99.06" size="1.778" layer="95"/>
+<instance part="JPROG" gate="G$1" x="304.8" y="111.76" smashed="yes">
+<attribute name="NAME" x="302.26" y="104.14" size="1.778" layer="95"/>
 </instance>
-<instance part="C7" gate="G$1" x="325.12" y="55.88" smashed="yes">
-<attribute name="NAME" x="326.644" y="56.261" size="1.778" layer="95"/>
-<attribute name="VALUE" x="326.644" y="51.181" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="325.12" y="55.88" size="1.778" layer="96" display="off"/>
+<instance part="C7" gate="G$1" x="325.12" y="66.04" smashed="yes">
+<attribute name="NAME" x="326.644" y="66.421" size="1.778" layer="95"/>
+<attribute name="VALUE" x="326.644" y="61.341" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="325.12" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="365.76" y="55.88" smashed="yes">
-<attribute name="NAME" x="367.284" y="56.261" size="1.778" layer="95"/>
-<attribute name="VALUE" x="367.284" y="51.181" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="365.76" y="55.88" size="1.778" layer="96" display="off"/>
+<instance part="C8" gate="G$1" x="365.76" y="66.04" smashed="yes">
+<attribute name="NAME" x="367.284" y="66.421" size="1.778" layer="95"/>
+<attribute name="VALUE" x="367.284" y="61.341" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="365.76" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+7" gate="1" x="365.76" y="73.66" smashed="yes">
-<attribute name="VALUE" x="363.22" y="68.58" size="1.778" layer="96" rot="R90"/>
+<instance part="P+7" gate="1" x="365.76" y="83.82" smashed="yes">
+<attribute name="VALUE" x="363.22" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND13" gate="1" x="292.1" y="33.02" smashed="yes">
-<attribute name="VALUE" x="289.56" y="30.48" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="292.1" y="43.18" smashed="yes">
+<attribute name="VALUE" x="289.56" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="1" x="365.76" y="33.02" smashed="yes">
-<attribute name="VALUE" x="363.22" y="30.48" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="365.76" y="43.18" smashed="yes">
+<attribute name="VALUE" x="363.22" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="F1" gate="G$1" x="274.32" y="60.96" smashed="yes">
-<attribute name="VALUE" x="270.51" y="59.69" size="1.778" layer="96"/>
-<attribute name="NAME" x="270.51" y="66.04" size="1.778" layer="95"/>
-<attribute name="LCSC_PART" x="274.32" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="F1" gate="G$1" x="274.32" y="71.12" smashed="yes">
+<attribute name="VALUE" x="270.51" y="69.85" size="1.778" layer="96"/>
+<attribute name="NAME" x="270.51" y="76.2" size="1.778" layer="95"/>
+<attribute name="LCSC_PART" x="274.32" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
@@ -12937,32 +12942,32 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="VALUE" x="308.864" y="147.701" size="1.778" layer="96"/>
 <attribute name="LCSC_PART" x="307.34" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="281.94" y="53.34" smashed="yes">
-<attribute name="NAME" x="283.464" y="53.721" size="1.778" layer="95"/>
-<attribute name="VALUE" x="283.464" y="48.641" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="281.94" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="C12" gate="G$1" x="281.94" y="63.5" smashed="yes">
+<attribute name="NAME" x="283.464" y="63.881" size="1.778" layer="95"/>
+<attribute name="VALUE" x="283.464" y="58.801" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="281.94" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R2" gate="G$1" x="292.1" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="290.6014" y="41.91" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="295.402" y="41.91" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="292.1" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="290.6014" y="52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="295.402" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TH3" gate="G$1" x="309.88" y="55.88" smashed="yes">
-<attribute name="NAME" x="312.42" y="55.88" size="1.778" layer="95"/>
-<attribute name="VALUE" x="312.42" y="53.34" size="1.778" layer="96"/>
+<instance part="TH3" gate="G$1" x="309.88" y="66.04" smashed="yes">
+<attribute name="NAME" x="312.42" y="66.04" size="1.778" layer="95"/>
+<attribute name="VALUE" x="312.42" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="C13" gate="G$1" x="299.72" y="45.72" smashed="yes">
-<attribute name="NAME" x="301.244" y="46.101" size="1.778" layer="95"/>
-<attribute name="VALUE" x="301.244" y="41.021" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="299.72" y="45.72" size="1.778" layer="96" display="off"/>
+<instance part="C13" gate="G$1" x="299.72" y="55.88" smashed="yes">
+<attribute name="NAME" x="301.244" y="56.261" size="1.778" layer="95"/>
+<attribute name="VALUE" x="301.244" y="51.181" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="299.72" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D2" gate="G$1" x="292.1" y="58.42" smashed="yes" rot="MR90">
-<attribute name="NAME" x="294.386" y="61.087" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="294.386" y="58.293" size="1.778" layer="96" rot="MR180"/>
+<instance part="D2" gate="G$1" x="292.1" y="68.58" smashed="yes" rot="MR90">
+<attribute name="NAME" x="294.386" y="71.247" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="294.386" y="68.453" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC3" gate="G$1" x="342.9" y="63.5" smashed="yes">
-<attribute name="NAME" x="335.28" y="71.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="335.28" y="55.88" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="342.9" y="63.5" size="1.778" layer="96" display="off"/>
+<instance part="IC3" gate="G$1" x="342.9" y="73.66" smashed="yes">
+<attribute name="NAME" x="335.28" y="81.28" size="1.778" layer="95"/>
+<attribute name="VALUE" x="335.28" y="66.04" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="342.9" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="147.32" y="76.2" smashed="yes">
 <attribute name="NAME" x="150.876" y="71.628" size="1.778" layer="95" rot="R90"/>
@@ -13343,8 +13348,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="NAME" x="142.24" y="149.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="1" x="266.7" y="73.66" smashed="yes">
-<attribute name="VALUE" x="264.16" y="68.58" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="1" x="266.7" y="83.82" smashed="yes">
+<attribute name="VALUE" x="264.16" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C22" gate="G$1" x="35.56" y="91.44" smashed="yes">
 <attribute name="NAME" x="37.084" y="91.821" size="1.778" layer="95"/>
@@ -13418,10 +13423,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="NAME" x="140.462" y="160.5534" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="135.382" y="166.5224" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="D10" gate="G$1" x="287.02" y="63.5" smashed="yes">
-<attribute name="NAME" x="281.94" y="69.0626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="281.94" y="66.2686" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="287.02" y="63.5" size="1.778" layer="96" display="off"/>
+<instance part="D10" gate="G$1" x="287.02" y="73.66" smashed="yes">
+<attribute name="NAME" x="281.94" y="79.2226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.94" y="76.4286" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="287.02" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -13539,14 +13544,14 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <wire x1="58.42" y1="63.5" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="320.04" y1="104.14" x2="325.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="325.12" y1="104.14" x2="325.12" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="109.22" x2="325.12" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="325.12" y1="96.52" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="99.06" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="96.52" x2="325.12" y2="96.52" width="0.1524" layer="91"/>
-<junction x="325.12" y="96.52"/>
+<wire x1="325.12" y1="101.6" x2="325.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="104.14" x2="332.74" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="101.6" x2="325.12" y2="101.6" width="0.1524" layer="91"/>
+<junction x="325.12" y="101.6"/>
 <pinref part="JPROG" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -13569,36 +13574,36 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="325.12" y1="50.8" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="38.1" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
-<junction x="325.12" y="38.1"/>
+<wire x1="325.12" y1="60.96" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
+<junction x="325.12" y="48.26"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="365.76" y1="50.8" x2="365.76" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="38.1" x2="365.76" y2="35.56" width="0.1524" layer="91"/>
-<junction x="358.14" y="38.1"/>
-<junction x="365.76" y="38.1"/>
-<wire x1="358.14" y1="38.1" x2="365.76" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="38.1" x2="299.72" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="60.96" x2="365.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="48.26" x2="365.76" y2="45.72" width="0.1524" layer="91"/>
+<junction x="358.14" y="48.26"/>
+<junction x="365.76" y="48.26"/>
+<wire x1="358.14" y1="48.26" x2="365.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="299.72" y1="38.1" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="38.1" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="35.56" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="48.26" x2="309.88" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="45.72" x2="292.1" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="40.64" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
-<junction x="292.1" y="38.1"/>
+<wire x1="292.1" y1="50.8" x2="292.1" y2="48.26" width="0.1524" layer="91"/>
+<junction x="292.1" y="48.26"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="48.26" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="38.1" x2="292.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="58.42" x2="281.94" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="48.26" x2="292.1" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="40.64" x2="299.72" y2="38.1" width="0.1524" layer="91"/>
-<junction x="299.72" y="38.1"/>
+<wire x1="299.72" y1="50.8" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
+<junction x="299.72" y="48.26"/>
 <pinref part="TH3" gate="G$1" pin="C"/>
-<wire x1="309.88" y1="53.34" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
-<junction x="309.88" y="38.1"/>
+<wire x1="309.88" y1="63.5" x2="309.88" y2="48.26" width="0.1524" layer="91"/>
+<junction x="309.88" y="48.26"/>
 <pinref part="IC3" gate="G$1" pin="GND"/>
-<wire x1="355.6" y1="60.96" x2="358.14" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="60.96" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="71.12" x2="358.14" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="71.12" x2="358.14" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP7" gate="G$1" pin="16"/>
@@ -13799,13 +13804,13 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <junction x="45.72" y="96.52"/>
 </segment>
 <segment>
-<wire x1="320.04" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="114.3" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<wire x1="325.12" y1="109.22" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="109.22" x2="332.74" y2="109.22" width="0.1524" layer="91"/>
-<junction x="325.12" y="109.22"/>
+<wire x1="325.12" y1="114.3" x2="325.12" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="114.3" x2="332.74" y2="114.3" width="0.1524" layer="91"/>
+<junction x="325.12" y="114.3"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="109.22" x2="332.74" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="114.3" x2="332.74" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="JPROG" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
@@ -13818,11 +13823,11 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="355.6" y1="66.04" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="66.04" x2="365.76" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="76.2" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="76.2" x2="365.76" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<wire x1="365.76" y1="71.12" x2="365.76" y2="66.04" width="0.1524" layer="91"/>
-<junction x="365.76" y="66.04"/>
+<wire x1="365.76" y1="81.28" x2="365.76" y2="76.2" width="0.1524" layer="91"/>
+<junction x="365.76" y="76.2"/>
 <pinref part="IC3" gate="G$1" pin="OUT"/>
 </segment>
 <segment>
@@ -13851,8 +13856,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <label x="132.08" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
-<label x="289.56" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="292.1" y1="114.3" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
+<label x="289.56" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JPROG" gate="G$1" pin="MISO"/>
 </segment>
 </net>
@@ -13863,8 +13868,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <label x="132.08" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="320.04" y1="106.68" x2="322.58" y2="106.68" width="0.1524" layer="91"/>
-<label x="322.58" y="106.68" size="1.27" layer="95" xref="yes"/>
+<wire x1="320.04" y1="111.76" x2="322.58" y2="111.76" width="0.1524" layer="91"/>
+<label x="322.58" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="JPROG" gate="G$1" pin="MOSI"/>
 </segment>
 </net>
@@ -13875,8 +13880,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <label x="132.08" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="106.68" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
-<label x="289.56" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="292.1" y1="111.76" x2="289.56" y2="111.76" width="0.1524" layer="91"/>
+<label x="289.56" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JPROG" gate="G$1" pin="SCK"/>
 </segment>
 </net>
@@ -13988,8 +13993,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </net>
 <net name="RST" class="0">
 <segment>
-<wire x1="292.1" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
-<label x="289.56" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="292.1" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
+<label x="289.56" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="JPROG" gate="G$1" pin="RST"/>
 </segment>
 <segment>
@@ -14016,8 +14021,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="63.5" x2="266.7" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="63.5" x2="266.7" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="73.66" x2="266.7" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="73.66" x2="266.7" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 </segment>
 </net>
@@ -14083,17 +14088,17 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="58.42" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="63.5" x2="330.2" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="63.5" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="63.5" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="68.58" x2="325.12" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="73.66" x2="330.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="73.66" x2="292.1" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="TH3" gate="G$1" pin="A"/>
-<wire x1="309.88" y1="58.42" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="63.5" x2="309.88" y2="63.5" width="0.1524" layer="91"/>
-<junction x="325.12" y="63.5"/>
-<junction x="309.88" y="63.5"/>
-<wire x1="289.56" y1="63.5" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
-<junction x="292.1" y="63.5"/>
+<wire x1="309.88" y1="68.58" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="73.66" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
+<junction x="325.12" y="73.66"/>
+<junction x="309.88" y="73.66"/>
+<wire x1="289.56" y1="73.66" x2="292.1" y2="73.66" width="0.1524" layer="91"/>
+<junction x="292.1" y="73.66"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="IC3" gate="G$1" pin="IN"/>
 <pinref part="D10" gate="G$1" pin="C"/>
@@ -15083,26 +15088,26 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <net name="N$57" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="50.8" x2="292.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="60.96" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="53.34" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="48.26" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="53.34" x2="292.1" y2="53.34" width="0.1524" layer="91"/>
-<junction x="292.1" y="53.34"/>
+<wire x1="292.1" y1="63.5" x2="292.1" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="58.42" x2="299.72" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="63.5" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
+<junction x="292.1" y="63.5"/>
 <pinref part="TH3" gate="G$1" pin="G"/>
-<wire x1="307.34" y1="53.34" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
-<junction x="299.72" y="53.34"/>
+<wire x1="307.34" y1="63.5" x2="299.72" y2="63.5" width="0.1524" layer="91"/>
+<junction x="299.72" y="63.5"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$58" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="73.66" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="55.88" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
-<junction x="281.94" y="63.5"/>
+<wire x1="281.94" y1="66.04" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="73.66" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
+<junction x="281.94" y="73.66"/>
 <pinref part="D10" gate="G$1" pin="A"/>
 </segment>
 </net>
