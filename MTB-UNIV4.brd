@@ -2909,7 +2909,7 @@ design rules under a new name.</description>
 <element name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" package="MC78M05BDTRKG" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG" x="99.06" y="19.3675" smashed="yes" rot="MR270">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DIGIKEY_PN" value="MC78M05BDTRKGOSCT-ND" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="LCSC_PART" value="C54285" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" value="C58069" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="ON Semiconductor" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="IC REG LINEAR 5V 500MA DPAK" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="101.71" y="19.8275" size="1.27" layer="26" rot="MR180"/>
