@@ -12470,7 +12470,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="JPROG" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="22uF/18V"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="47uF/10V">
-<attribute name="LCSC_PART" value="C68978"/>
+<attribute name="LCSC_PART" value="C96123"/>
 </part>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12755,7 +12755,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="22uF/18V">
-<attribute name="LCSC_PART" value="C68978"/>
+<attribute name="LCSC_PART" value="C45783"/>
 </part>
 </parts>
 <sheets>
