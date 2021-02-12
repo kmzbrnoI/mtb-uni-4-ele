@@ -12432,7 +12432,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </class>
 </classes>
 <parts>
-<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1" value="14.7456 MHz"/>
+<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49UP" package3d_urn="urn:adsk.eagle:package:12078/1" value="14.745 MHz"/>
 <part name="IC5" library="uln-udn" library_urn="urn:adsk.eagle:library:407" deviceset="ULN2803A" device="" package3d_urn="urn:adsk.eagle:package:16424/2" value="ULN2803A"/>
 <part name="IC4" library="uln-udn" library_urn="urn:adsk.eagle:library:407" deviceset="ULN2803A" device="" package3d_urn="urn:adsk.eagle:package:16424/2" value="ULN2803A"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -12468,10 +12468,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="LCSC_PART" value="C17902"/>
 </part>
 <part name="JPROG" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="22uF">
+<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="47uF">
 <attribute name="LCSC_PART" value="C12891"/>
 </part>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="22uF">
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="47uF">
 <attribute name="LCSC_PART" value="C12891"/>
 </part>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -12736,6 +12736,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="RN8" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2"/>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="BLUE"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12744,16 +12745,16 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <text x="289.56" y="5.08" size="2.54" layer="97">Robert Čížek, Jan Horáček
 KMŽ Brno I, LRKV MENDELU
 2020-2021</text>
-<text x="375.158" y="5.08" size="2.54" layer="94">v4.1</text>
+<text x="375.158" y="5.08" size="2.54" layer="94">v4.2</text>
 <text x="344.17" y="20.32" size="2.54" layer="94">All</text>
 <text x="335.28" y="25.4" size="1.9304" layer="97" align="bottom-center">Released under the Creative Commons Attribution-ShareAlike 4.0 License
 https://creativecommons.org/licenses/by-sa/4.0/
 https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </plain>
 <instances>
-<instance part="Q1" gate="G$1" x="38.1" y="111.76" smashed="yes">
-<attribute name="NAME" x="40.64" y="112.776" size="1.778" layer="95"/>
-<attribute name="VALUE" x="23.114" y="114.554" size="1.778" layer="96"/>
+<instance part="Q1" gate="G$1" x="35.56" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.544" y="116.84" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="45.466" y="108.966" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC5" gate="G$1" x="269.24" y="180.34" smashed="yes">
 <attribute name="NAME" x="261.62" y="193.802" size="1.778" layer="95"/>
@@ -12763,8 +12764,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="NAME" x="261.62" y="252.222" size="1.778" layer="95"/>
 <attribute name="VALUE" x="261.62" y="223.52" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="66.04" y="132.08" smashed="yes">
-<attribute name="VALUE" x="63.5" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="1" x="58.42" y="132.08" smashed="yes">
+<attribute name="VALUE" x="55.88" y="127" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND1" gate="1" x="325.12" y="96.52" smashed="yes">
 <attribute name="VALUE" x="322.58" y="93.98" size="1.778" layer="96"/>
@@ -12781,23 +12782,23 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="GND5" gate="1" x="284.48" y="198.12" smashed="yes">
 <attribute name="VALUE" x="281.94" y="195.58" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="104.14" y="68.58" smashed="yes">
-<attribute name="VALUE" x="81.28" y="7.62" size="1.778" layer="96"/>
-<attribute name="NAME" x="81.28" y="125.73" size="1.778" layer="95"/>
+<instance part="IC1" gate="G$1" x="96.52" y="68.58" smashed="yes">
+<attribute name="VALUE" x="73.66" y="7.62" size="1.778" layer="96"/>
+<attribute name="NAME" x="73.66" y="125.73" size="1.778" layer="95"/>
 </instance>
-<instance part="GND6" gate="1" x="55.88" y="58.42" smashed="yes">
-<attribute name="VALUE" x="53.34" y="55.88" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="48.26" y="58.42" smashed="yes">
+<attribute name="VALUE" x="45.72" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="1" x="325.12" y="121.92" smashed="yes">
 <attribute name="VALUE" x="322.58" y="116.84" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="33.02" y="106.68" smashed="yes" rot="MR0">
-<attribute name="NAME" x="31.496" y="107.061" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="31.496" y="101.981" size="1.778" layer="96" rot="MR0"/>
+<instance part="C1" gate="G$1" x="27.94" y="116.84" smashed="yes" rot="MR90">
+<attribute name="NAME" x="28.321" y="118.364" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="23.241" y="118.364" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="C2" gate="G$1" x="43.18" y="106.68" smashed="yes">
-<attribute name="NAME" x="44.704" y="107.061" size="1.778" layer="95"/>
-<attribute name="VALUE" x="44.704" y="101.981" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="25.4" y="111.76" smashed="yes" rot="MR270">
+<attribute name="NAME" x="25.019" y="110.236" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="30.099" y="110.236" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="IC2" gate="G$1" x="203.2" y="99.06" smashed="yes">
 <attribute name="NAME" x="198.755" y="103.505" size="1.778" layer="95"/>
@@ -12825,14 +12826,14 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="VALUE" x="334.264" y="104.521" size="1.778" layer="96"/>
 <attribute name="LCSC_PART" x="332.74" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="45.72" y="91.44" smashed="yes">
-<attribute name="NAME" x="47.244" y="91.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="47.244" y="86.741" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="38.1" y="91.44" smashed="yes">
+<attribute name="NAME" x="39.624" y="91.821" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.624" y="86.741" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="55.88" y="127" smashed="yes">
-<attribute name="NAME" x="52.07" y="128.4986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="52.07" y="123.698" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="55.88" y="127" size="1.778" layer="96" display="off"/>
+<instance part="R1" gate="G$1" x="48.26" y="127" smashed="yes">
+<attribute name="NAME" x="44.45" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.45" y="123.698" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="48.26" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JPROG" gate="G$1" x="304.8" y="111.76" smashed="yes">
 <attribute name="NAME" x="302.26" y="104.14" size="1.778" layer="95"/>
@@ -12866,10 +12867,10 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="C9" gate="G$1" x="35.56" y="91.44" smashed="yes">
-<attribute name="NAME" x="37.084" y="91.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="37.084" y="86.741" size="1.778" layer="96"/>
-<attribute name="LCSC_PART" x="35.56" y="91.44" size="1.778" layer="96" display="off"/>
+<instance part="C9" gate="G$1" x="27.94" y="91.44" smashed="yes">
+<attribute name="NAME" x="29.464" y="91.821" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.464" y="86.741" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="27.94" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+8" gate="1" x="60.96" y="160.02" smashed="yes">
 <attribute name="VALUE" x="58.42" y="154.94" size="1.778" layer="96" rot="R90"/>
@@ -13039,24 +13040,24 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="VALUE" x="335.28" y="66.04" size="1.778" layer="96"/>
 <attribute name="LCSC_PART" x="342.9" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED1" gate="G$1" x="147.32" y="76.2" smashed="yes">
-<attribute name="NAME" x="150.876" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="153.035" y="71.628" size="1.778" layer="96" rot="R90"/>
+<instance part="LED1" gate="G$1" x="139.7" y="76.2" smashed="yes">
+<attribute name="NAME" x="143.256" y="71.628" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.415" y="71.628" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED2" gate="G$1" x="157.48" y="76.2" smashed="yes">
-<attribute name="NAME" x="161.036" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="163.195" y="71.628" size="1.778" layer="96" rot="R90"/>
+<instance part="LED2" gate="G$1" x="149.86" y="76.2" smashed="yes">
+<attribute name="NAME" x="153.416" y="71.628" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="155.575" y="71.628" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R21" gate="G$1" x="157.48" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="155.9814" y="85.09" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="160.782" y="85.09" size="1.778" layer="96" rot="R90"/>
+<instance part="R21" gate="G$1" x="149.86" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.3614" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="153.162" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R22" gate="G$1" x="147.32" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.8214" y="85.09" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="150.622" y="85.09" size="1.778" layer="96" rot="R90"/>
+<instance part="R22" gate="G$1" x="139.7" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.2014" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="143.002" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND10" gate="1" x="157.48" y="60.96" smashed="yes">
-<attribute name="VALUE" x="154.94" y="58.42" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="149.86" y="60.96" smashed="yes">
+<attribute name="VALUE" x="147.32" y="58.42" size="1.778" layer="96"/>
 </instance>
 <instance part="GND15" gate="1" x="350.52" y="198.12" smashed="yes">
 <attribute name="VALUE" x="347.98" y="195.58" size="1.778" layer="96"/>
@@ -13421,9 +13422,9 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="P+2" gate="1" x="266.7" y="83.82" smashed="yes">
 <attribute name="VALUE" x="264.16" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C22" gate="G$1" x="25.4" y="91.44" smashed="yes">
-<attribute name="NAME" x="26.924" y="91.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="26.924" y="86.741" size="1.778" layer="96"/>
+<instance part="C22" gate="G$1" x="17.78" y="91.44" smashed="yes">
+<attribute name="NAME" x="19.304" y="91.821" size="1.778" layer="95"/>
+<attribute name="VALUE" x="19.304" y="86.741" size="1.778" layer="96"/>
 </instance>
 <instance part="X2B" gate="-1" x="238.76" y="83.82" smashed="yes">
 <attribute name="NAME" x="242.824" y="83.058" size="1.778" layer="95"/>
@@ -13457,9 +13458,9 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="GND7" gate="1" x="193.04" y="73.66" smashed="yes">
 <attribute name="VALUE" x="190.5" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="1" x="48.26" y="71.12" smashed="yes">
-<attribute name="NAME" x="41.91" y="68.58" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="44.45" y="74.295" size="1.778" layer="96" rot="R90"/>
+<instance part="S1" gate="1" x="40.64" y="71.12" smashed="yes">
+<attribute name="NAME" x="34.29" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="36.83" y="74.295" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D23" gate="G$1" x="91.44" y="223.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="92.202" y="221.5134" size="1.778" layer="95" rot="MR180"/>
@@ -13549,20 +13550,23 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="NAME" x="37.465" y="177.8" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="38.1" y="163.322" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED3" gate="G$1" x="167.64" y="76.2" smashed="yes">
-<attribute name="NAME" x="171.196" y="71.628" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="173.355" y="71.628" size="1.778" layer="96" rot="R90"/>
+<instance part="LED3" gate="G$1" x="160.02" y="76.2" smashed="yes">
+<attribute name="NAME" x="163.576" y="71.628" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.735" y="71.628" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="167.64" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="166.1414" y="85.09" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="170.942" y="85.09" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="160.02" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.5214" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.322" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND8" gate="1" x="20.32" y="106.68" smashed="yes">
+<attribute name="VALUE" x="17.78" y="104.14" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
 <bus name="D-IN(A)[1..8]">
 <segment>
-<wire x1="132.08" y1="20.32" x2="132.08" y2="30.48" width="0.762" layer="92"/>
-<label x="134.62" y="20.32" size="1.27" layer="95" rot="R90"/>
+<wire x1="124.46" y1="20.32" x2="124.46" y2="30.48" width="0.762" layer="92"/>
+<label x="127" y="20.32" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="246.38" x2="22.86" y2="228.6" width="0.762" layer="92"/>
@@ -13571,8 +13575,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </bus>
 <bus name="D-IN(B)[1..8]">
 <segment>
-<wire x1="73.66" y1="12.7" x2="73.66" y2="30.48" width="0.762" layer="92"/>
-<label x="72.136" y="17.018" size="1.27" layer="95" rot="R90"/>
+<wire x1="66.04" y1="12.7" x2="66.04" y2="30.48" width="0.762" layer="92"/>
+<label x="64.516" y="17.018" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="167.64" x2="22.86" y2="185.42" width="0.762" layer="92"/>
@@ -13581,8 +13585,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </bus>
 <bus name="D-OUT(A)[1..8]">
 <segment>
-<wire x1="132.08" y1="35.56" x2="132.08" y2="53.34" width="0.762" layer="92"/>
-<label x="134.62" y="38.1" size="1.27" layer="95" rot="R90"/>
+<wire x1="124.46" y1="35.56" x2="124.46" y2="53.34" width="0.762" layer="92"/>
+<label x="127" y="38.1" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="254" y1="231.14" x2="254" y2="248.92" width="0.762" layer="92"/>
@@ -13591,8 +13595,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </bus>
 <bus name="D-OUT(B)[1..8]">
 <segment>
-<wire x1="132.08" y1="76.2" x2="132.08" y2="58.42" width="0.762" layer="92"/>
-<label x="134.62" y="60.96" size="1.27" layer="95" rot="R90"/>
+<wire x1="124.46" y1="76.2" x2="124.46" y2="58.42" width="0.762" layer="92"/>
+<label x="127" y="60.96" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
 <wire x1="254" y1="172.72" x2="254" y2="190.5" width="0.762" layer="92"/>
@@ -13605,8 +13609,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <label x="196.85" y="20.828" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="121.92" x2="132.08" y2="104.14" width="0.762" layer="92"/>
-<label x="134.62" y="106.68" size="1.778" layer="95" rot="R90"/>
+<wire x1="124.46" y1="121.92" x2="124.46" y2="104.14" width="0.762" layer="92"/>
+<label x="127" y="106.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
 </busses>
@@ -13627,50 +13631,39 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="60.96" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="63.5" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="81.28" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="83.82" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="88.9" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="60.96" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="83.82" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="88.9" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND@2"/>
-<wire x1="73.66" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
-<junction x="55.88" y="88.9"/>
+<wire x1="66.04" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
+<junction x="48.26" y="88.9"/>
 <pinref part="IC1" gate="G$1" pin="GND@1"/>
-<wire x1="76.2" y1="101.6" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="101.6" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
-<junction x="73.66" y="91.44"/>
-<junction x="55.88" y="81.28"/>
-<wire x1="10.16" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="101.6" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="99.06" x2="10.16" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="99.06" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="101.6" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<junction x="33.02" y="99.06"/>
+<wire x1="68.58" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="101.6" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+<junction x="66.04" y="91.44"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="86.36" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="86.36" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
-<junction x="45.72" y="83.82"/>
-<junction x="55.88" y="83.82"/>
+<wire x1="27.94" y1="86.36" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
+<junction x="38.1" y="83.82"/>
+<junction x="48.26" y="83.82"/>
 <pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
-<junction x="35.56" y="83.82"/>
-<wire x1="50.8" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
-<junction x="55.88" y="63.5"/>
+<wire x1="17.78" y1="86.36" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<junction x="27.94" y="83.82"/>
+<wire x1="43.18" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<junction x="48.26" y="63.5"/>
 <pinref part="S1" gate="1" pin="P1"/>
-<wire x1="50.8" y1="63.5" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
-<junction x="50.8" y="63.5"/>
+<wire x1="43.18" y1="63.5" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<junction x="43.18" y="63.5"/>
 <pinref part="S1" gate="1" pin="P"/>
-<wire x1="48.26" y1="63.5" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="63.5" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
@@ -13807,15 +13800,15 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="157.48" y1="71.12" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="71.12" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="157.48" y1="66.04" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="71.12" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
-<junction x="157.48" y="66.04"/>
-<wire x1="157.48" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="66.04" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="71.12" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
+<junction x="149.86" y="66.04"/>
+<wire x1="149.86" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="167.64" y1="66.04" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="66.04" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -13904,36 +13897,46 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="76.2" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="20.32" y1="109.22" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="111.76" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
+<junction x="20.32" y="111.76"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="3">
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="66.04" y1="129.54" x2="66.04" y2="127" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="127" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="104.14" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="96.52" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="129.54" x2="58.42" y2="127" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="127" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="104.14" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="96.52" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VCC@1"/>
-<wire x1="76.2" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<junction x="66.04" y="96.52"/>
+<wire x1="68.58" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
+<junction x="58.42" y="96.52"/>
 <pinref part="IC1" gate="G$1" pin="AVCC"/>
-<wire x1="76.2" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
-<junction x="66.04" y="104.14"/>
+<wire x1="68.58" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
+<junction x="58.42" y="104.14"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
-<junction x="66.04" y="127"/>
+<wire x1="53.34" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
+<junction x="58.42" y="127"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="93.98" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="93.98" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="93.98" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<junction x="45.72" y="96.52"/>
+<wire x1="27.94" y1="93.98" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
+<junction x="38.1" y="96.52"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="93.98" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
-<junction x="35.56" y="96.52"/>
+<wire x1="17.78" y1="93.98" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<junction x="27.94" y="96.52"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="114.3" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
@@ -14051,8 +14054,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="MISO" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(MISO)PB3"/>
-<wire x1="129.54" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
-<label x="132.08" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+<label x="124.46" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="114.3" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
@@ -14063,8 +14066,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(MOSI)PB2"/>
-<wire x1="129.54" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<label x="132.08" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<label x="124.46" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="320.04" y1="111.76" x2="322.58" y2="111.76" width="0.1524" layer="91"/>
@@ -14075,8 +14078,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="SCK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SCK)PB1"/>
-<wire x1="129.54" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
-<label x="132.08" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
+<label x="124.46" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="292.1" y1="111.76" x2="289.56" y2="111.76" width="0.1524" layer="91"/>
@@ -14087,24 +14090,11 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="XTAL1"/>
-<pinref part="Q1" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="111.76" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="109.22" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
-<junction x="43.18" y="111.76"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="XTAL2"/>
-<wire x1="76.2" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="116.84" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="109.22" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
-<junction x="33.02" y="111.76"/>
+<wire x1="35.56" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<junction x="35.56" y="111.76"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="D-IN(A)1" class="0">
@@ -14114,7 +14104,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC3A/AIN1)PE3"/>
-<wire x1="132.08" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(A)2" class="0">
@@ -14124,7 +14114,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC3B/INT4)PE4"/>
-<wire x1="132.08" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(A)3" class="0">
@@ -14134,7 +14124,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC3C/INT5)PE5"/>
-<wire x1="132.08" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(A)4" class="0">
@@ -14144,13 +14134,13 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(T3/INT6)PE6"/>
-<wire x1="132.08" y1="27.94" x2="129.54" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(A)5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(IC3/INT7)PE7"/>
-<wire x1="132.08" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RN4" gate="G$1" pin="8"/>
@@ -14160,8 +14150,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="D-IN(A)6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SS)PB0"/>
-<wire x1="129.54" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
-<label x="132.08" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+<label x="124.46" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RN4" gate="G$1" pin="7"/>
@@ -14171,8 +14161,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="D-IN(A)7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC0)PB4"/>
-<wire x1="129.54" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<label x="132.08" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+<label x="124.46" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RN4" gate="G$1" pin="6"/>
@@ -14182,8 +14172,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="D-IN(A)8" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC1A)PB5"/>
-<wire x1="129.54" y1="93.98" x2="132.08" y2="93.98" width="0.1524" layer="91"/>
-<label x="132.08" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<label x="124.46" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RN4" gate="G$1" pin="5"/>
@@ -14198,13 +14188,13 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="127" x2="48.26" y2="127" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="127" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="127" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="RESET"/>
-<wire x1="76.2" y1="121.92" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
-<junction x="48.26" y="121.92"/>
-<wire x1="45.72" y1="121.92" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
-<label x="45.72" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="68.58" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<junction x="40.64" y="121.92"/>
+<wire x1="38.1" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="38.1" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+12V" class="4">
@@ -14248,8 +14238,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(RXD/PDI)PE0"/>
-<wire x1="129.54" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
-<label x="132.08" y="12.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
+<label x="124.46" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RS-E" class="0">
@@ -14268,8 +14258,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(XCK0/AIN0)PE2"/>
-<wire x1="129.54" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
-<label x="132.08" y="17.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="17.78" x2="124.46" y2="17.78" width="0.1524" layer="91"/>
+<label x="124.46" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RS-D" class="0">
@@ -14280,8 +14270,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TXD/PDO)PE1"/>
-<wire x1="129.54" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
-<label x="132.08" y="15.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="121.92" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
+<label x="124.46" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -14325,7 +14315,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF7(ADC7/TDI)"/>
-<wire x1="73.66" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(B)2" class="0">
@@ -14335,7 +14325,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF6(ADC6/TDO)"/>
-<wire x1="73.66" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(B)3" class="0">
@@ -14345,7 +14335,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF5(ADC5/TMS)"/>
-<wire x1="73.66" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(B)4" class="0">
@@ -14355,7 +14345,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF4(ADC4/TCK)"/>
-<wire x1="73.66" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(B)5" class="0">
@@ -14365,7 +14355,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF3(ADC3)"/>
-<wire x1="73.66" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(B)6" class="0">
@@ -14375,7 +14365,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF2(ADC2)"/>
-<wire x1="73.66" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(B)7" class="0">
@@ -14385,7 +14375,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF1(ADC1)"/>
-<wire x1="73.66" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-IN(B)8" class="0">
@@ -14395,7 +14385,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PF0(ADC0)"/>
-<wire x1="73.66" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)1" class="0">
@@ -14405,7 +14395,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(T2)PD7"/>
-<wire x1="132.08" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)2" class="0">
@@ -14415,7 +14405,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(T1)PD6"/>
-<wire x1="132.08" y1="50.8" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)3" class="0">
@@ -14425,7 +14415,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(XCK1)PD5"/>
-<wire x1="132.08" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)4" class="0">
@@ -14435,7 +14425,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(IC1)PD4"/>
-<wire x1="132.08" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)5" class="0">
@@ -14445,7 +14435,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(TXD1/INT3)PD3"/>
-<wire x1="132.08" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)6" class="0">
@@ -14455,7 +14445,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(RXD1/INT2)PD2"/>
-<wire x1="132.08" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)7" class="0">
@@ -14465,7 +14455,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SDA/INT1)PD1"/>
-<wire x1="132.08" y1="38.1" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(A)8" class="0">
@@ -14475,7 +14465,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SCL/INT0)PD0"/>
-<wire x1="132.08" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="35.56" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)1" class="0">
@@ -14485,7 +14475,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A15)PC7"/>
-<wire x1="132.08" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)2" class="0">
@@ -14495,7 +14485,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A14)PC6"/>
-<wire x1="132.08" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)3" class="0">
@@ -14505,7 +14495,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A13)PC5"/>
-<wire x1="132.08" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)4" class="0">
@@ -14515,7 +14505,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A12)PC4"/>
-<wire x1="132.08" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)5" class="0">
@@ -14525,7 +14515,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A11)PC3"/>
-<wire x1="132.08" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)6" class="0">
@@ -14535,7 +14525,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A10)PC2"/>
-<wire x1="132.08" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)7" class="0">
@@ -14545,7 +14535,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A9)PC1"/>
-<wire x1="132.08" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-OUT(B)8" class="0">
@@ -14555,7 +14545,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(A8)PC0"/>
-<wire x1="132.08" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="2">
@@ -14789,7 +14779,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD7)PA7"/>
-<wire x1="132.08" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR-2" class="0">
@@ -14803,7 +14793,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD6)PA6"/>
-<wire x1="132.08" y1="119.38" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR-3" class="0">
@@ -14817,7 +14807,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD5)PA5"/>
-<wire x1="132.08" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR-4" class="0">
@@ -14831,7 +14821,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD4)PA4"/>
-<wire x1="132.08" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR-5" class="0">
@@ -14845,7 +14835,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD3)PA3"/>
-<wire x1="132.08" y1="111.76" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR-6" class="0">
@@ -14859,7 +14849,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD2)PA2"/>
-<wire x1="132.08" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR-7" class="0">
@@ -14873,7 +14863,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD1)PA1"/>
-<wire x1="132.08" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADDR-8" class="0">
@@ -14887,7 +14877,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(AD0)PA0"/>
-<wire x1="132.08" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -15314,30 +15304,30 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC1B)PB6"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="96.52" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="96.52" x2="139.7" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="96.52" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_RED" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(OC2/OC1C)PB7"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="99.06" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="99.06" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="99.06" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="157.48" y1="83.82" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="83.82" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="147.32" y1="83.82" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="83.82" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -15587,10 +15577,10 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </net>
 <net name="N$86" class="0">
 <segment>
-<wire x1="48.26" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PG4(TOSC1)"/>
 <pinref part="S1" gate="1" pin="S"/>
-<wire x1="48.26" y1="78.74" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="78.74" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$87" class="0">
@@ -15671,20 +15661,30 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="LED_BLUE" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PG3(TOSC2)"/>
-<wire x1="73.66" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<label x="73.66" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="66.04" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<label x="66.04" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="99.06" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
-<label x="167.64" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="160.02" y1="99.06" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
+<label x="160.02" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="167.64" y1="83.82" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="83.82" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="XTAL2"/>
+<wire x1="68.58" y1="116.84" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
+<junction x="35.56" y="116.84"/>
+<wire x1="35.56" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
