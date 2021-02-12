@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="3" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="3" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -12519,10 +12519,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="LCSC_PART" value="C353849"/>
 </part>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
-<attribute name="LCSC_PART" value="C17944"/>
+<attribute name="LCSC_PART" value="C17520"/>
 </part>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
-<attribute name="LCSC_PART" value="C17944"/>
+<attribute name="LCSC_PART" value="C17520"/>
 </part>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
 <attribute name="LCSC_PART" value="C24497"/>
@@ -12566,7 +12566,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <attribute name="LCSC_PART" value="C24497"/>
 </part>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
-<attribute name="LCSC_PART" value="C17944"/>
+<attribute name="LCSC_PART" value="C17520"/>
 </part>
 <part name="TH3" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
@@ -12633,11 +12633,11 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="F25" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
 <attribute name="LCSC_PART" value="C261946"/>
 </part>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1">
-<attribute name="LCSC_PART" value="C353849"/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="4V7">
+<attribute name="LCSC_PART" value="C384560"/>
 </part>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
-<attribute name="LCSC_PART" value="C17944"/>
+<attribute name="LCSC_PART" value="C17520"/>
 </part>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
 <attribute name="LCSC_PART" value="C24497"/>
@@ -12670,11 +12670,11 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="F33" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
 <attribute name="LCSC_PART" value="C261946"/>
 </part>
-<part name="D22" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1">
-<attribute name="LCSC_PART" value="C353849"/>
+<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="4V7">
+<attribute name="LCSC_PART" value="C384560"/>
 </part>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
-<attribute name="LCSC_PART" value="C17944"/>
+<attribute name="LCSC_PART" value="C17520"/>
 </part>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
 <attribute name="LCSC_PART" value="C24497"/>
@@ -12684,7 +12684,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </part>
 <part name="TH5" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="X2B" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="X2A" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="X1A" library="con-malina" deviceset="MVE252-5-V" device=""/>
@@ -12694,18 +12694,6 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 </part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
-<part name="D23" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
-<attribute name="LCSC_PART" value="C68978"/>
-</part>
-<part name="D24" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
-<attribute name="LCSC_PART" value="C68978"/>
-</part>
-<part name="D25" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
-<attribute name="LCSC_PART" value="C68978"/>
-</part>
-<part name="D26" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
-<attribute name="LCSC_PART" value="C68978"/>
-</part>
 <part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
 <attribute name="LCSC_PART" value="C68978"/>
 </part>
@@ -12718,22 +12706,53 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
 <attribute name="LCSC_PART" value="C68978"/>
 </part>
-<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="SM4007PL">
+<part name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
+<attribute name="LCSC_PART" value="C68978"/>
+</part>
+<part name="D12" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
+<attribute name="LCSC_PART" value="C68978"/>
+</part>
+<part name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
+<attribute name="LCSC_PART" value="C68978"/>
+</part>
+<part name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70">
+<attribute name="LCSC_PART" value="C68978"/>
+</part>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="SM4007PL">
 <attribute name="LCSC_PART" value="C64898"/>
 </part>
-<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
-<part name="RN6" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
-<part name="RN5" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
+<part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
+<part name="RN6" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
+<part name="RN5" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
 <part name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="RN10" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
-<part name="RN11" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k"/>
-<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2"/>
-<part name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2"/>
-<part name="RN7" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2"/>
-<part name="RN8" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2"/>
+<part name="RN10" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
+<part name="RN11" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k">
+<attribute name="LCSC_PART" value="C29718"/>
+</part>
+<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2">
+<attribute name="LCSC_PART" value="C12001"/>
+</part>
+<part name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2">
+<attribute name="LCSC_PART" value="C12001"/>
+</part>
+<part name="RN7" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2">
+<attribute name="LCSC_PART" value="C12001"/>
+</part>
+<part name="RN8" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2">
+<attribute name="LCSC_PART" value="C12001"/>
+</part>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" value="BLUE"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13395,7 +13414,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="NAME" x="161.29" y="170.18" size="1.778" layer="95"/>
 <attribute name="LCSC_PART" x="162.56" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D22" gate="G$1" x="119.38" y="152.4" smashed="yes" rot="R90">
+<instance part="D10" gate="G$1" x="119.38" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.475" y="150.622" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.809" y="150.622" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC_PART" x="119.38" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
@@ -13422,7 +13441,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="P+2" gate="1" x="266.7" y="83.82" smashed="yes">
 <attribute name="VALUE" x="264.16" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C22" gate="G$1" x="17.78" y="91.44" smashed="yes">
+<instance part="C10" gate="G$1" x="17.78" y="91.44" smashed="yes">
 <attribute name="NAME" x="19.304" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="19.304" y="86.741" size="1.778" layer="96"/>
 </instance>
@@ -13462,47 +13481,47 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="NAME" x="34.29" y="68.58" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="36.83" y="74.295" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D23" gate="G$1" x="91.44" y="223.52" smashed="yes" rot="MR180">
+<instance part="D6" gate="G$1" x="91.44" y="223.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="92.202" y="221.5134" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="87.122" y="227.4824" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="91.44" y="223.52" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D24" gate="G$1" x="104.14" y="223.52" smashed="yes" rot="MR180">
+<instance part="D7" gate="G$1" x="104.14" y="223.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="104.902" y="221.5134" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="99.822" y="227.4824" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="104.14" y="223.52" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D25" gate="G$1" x="116.84" y="223.52" smashed="yes" rot="MR180">
+<instance part="D8" gate="G$1" x="116.84" y="223.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="117.602" y="221.5134" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="112.522" y="227.4824" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="116.84" y="223.52" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D26" gate="G$1" x="129.54" y="223.52" smashed="yes" rot="MR180">
+<instance part="D9" gate="G$1" x="129.54" y="223.52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="130.302" y="221.5134" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="125.222" y="227.4824" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="129.54" y="223.52" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D6" gate="G$1" x="91.44" y="162.56" smashed="yes" rot="MR180">
+<instance part="D11" gate="G$1" x="91.44" y="162.56" smashed="yes" rot="MR180">
 <attribute name="NAME" x="92.202" y="160.5534" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="87.122" y="166.5224" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="91.44" y="162.56" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D7" gate="G$1" x="104.14" y="162.56" smashed="yes" rot="MR180">
+<instance part="D12" gate="G$1" x="104.14" y="162.56" smashed="yes" rot="MR180">
 <attribute name="NAME" x="104.902" y="160.5534" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="99.822" y="166.5224" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="104.14" y="162.56" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D8" gate="G$1" x="116.84" y="162.56" smashed="yes" rot="MR180">
+<instance part="D13" gate="G$1" x="116.84" y="162.56" smashed="yes" rot="MR180">
 <attribute name="NAME" x="117.602" y="160.5534" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="112.522" y="166.5224" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="116.84" y="162.56" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D9" gate="G$1" x="129.54" y="162.56" smashed="yes" rot="MR180">
+<instance part="D14" gate="G$1" x="129.54" y="162.56" smashed="yes" rot="MR180">
 <attribute name="NAME" x="130.302" y="160.5534" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="125.222" y="166.5224" size="1.778" layer="96" rot="MR180"/>
 <attribute name="LCSC_PART" x="129.54" y="162.56" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="D10" gate="G$1" x="287.02" y="73.66" smashed="yes">
+<instance part="D1" gate="G$1" x="287.02" y="73.66" smashed="yes">
 <attribute name="NAME" x="281.94" y="79.2226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="281.94" y="76.4286" size="1.778" layer="96"/>
 <attribute name="LCSC_PART" x="287.02" y="73.66" size="1.778" layer="96" display="off"/>
@@ -13510,18 +13529,22 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="RN1" gate="G$1" x="48.26" y="210.82" smashed="yes" rot="MR90">
 <attribute name="NAME" x="53.34" y="208.915" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="38.862" y="208.28" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="48.26" y="210.82" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="RN6" gate="G$1" x="76.2" y="147.32" smashed="yes" rot="MR90">
 <attribute name="NAME" x="81.28" y="145.415" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="66.802" y="144.78" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="76.2" y="147.32" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="RN5" gate="G$1" x="48.26" y="147.32" smashed="yes" rot="MR90">
 <attribute name="NAME" x="53.34" y="145.415" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="38.862" y="144.78" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="48.26" y="147.32" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="RN2" gate="G$1" x="76.2" y="210.82" smashed="yes" rot="MR90">
 <attribute name="NAME" x="81.28" y="208.915" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="66.802" y="208.28" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="76.2" y="210.82" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="P+6" gate="1" x="60.96" y="223.52" smashed="yes">
 <attribute name="VALUE" x="58.42" y="218.44" size="1.778" layer="96" rot="R90"/>
@@ -13529,26 +13552,32 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="RN10" gate="G$1" x="205.74" y="43.18" smashed="yes" rot="MR90">
 <attribute name="NAME" x="210.82" y="41.275" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="196.342" y="40.64" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="205.74" y="43.18" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="RN11" gate="G$1" x="228.6" y="43.18" smashed="yes" rot="MR90">
 <attribute name="NAME" x="233.68" y="41.275" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="219.202" y="40.64" size="1.778" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="228.6" y="43.18" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="RN3" gate="G$1" x="60.96" y="243.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="62.865" y="248.92" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="63.5" y="234.442" size="1.778" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="60.96" y="243.84" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="RN4" gate="G$1" x="35.56" y="233.68" smashed="yes" rot="MR0">
 <attribute name="NAME" x="37.465" y="238.76" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="38.1" y="224.282" size="1.778" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="35.56" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="RN7" gate="G$1" x="60.96" y="182.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="62.865" y="187.96" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="63.5" y="173.482" size="1.778" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="60.96" y="182.88" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="RN8" gate="G$1" x="35.56" y="172.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="37.465" y="177.8" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="38.1" y="163.322" size="1.778" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="35.56" y="172.72" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="LED3" gate="G$1" x="160.02" y="76.2" smashed="yes">
 <attribute name="NAME" x="163.576" y="71.628" size="1.778" layer="95" rot="R90"/>
@@ -13652,7 +13681,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="38.1" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 <junction x="38.1" y="83.82"/>
 <junction x="48.26" y="83.82"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="86.36" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <junction x="27.94" y="83.82"/>
@@ -13933,7 +13962,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="27.94" y1="93.98" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 <junction x="38.1" y="96.52"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="93.98" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <junction x="27.94" y="96.52"/>
@@ -14290,7 +14319,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <junction x="292.1" y="73.66"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="IC3" gate="G$1" pin="IN"/>
-<pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="RS-B" class="0">
@@ -15297,7 +15326,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="281.94" y1="66.04" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="73.66" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
 <junction x="281.94" y="73.66"/>
-<pinref part="D10" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="LED_GREEN" class="0">
@@ -15336,7 +15365,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="40.64" y1="236.22" x2="50.8" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="236.22" x2="111.76" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="236.22" x2="132.08" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="D25" gate="G$1" pin="A1"/>
+<pinref part="D8" gate="G$1" pin="A1"/>
 <wire x1="111.76" y1="223.52" x2="111.76" y2="236.22" width="0.1524" layer="91"/>
 <junction x="111.76" y="236.22"/>
 <pinref part="RN4" gate="G$1" pin="1"/>
@@ -15351,7 +15380,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="40.64" y1="233.68" x2="48.26" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="233.68" x2="121.92" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="233.68" x2="142.24" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="D25" gate="G$1" pin="A2"/>
+<pinref part="D8" gate="G$1" pin="A2"/>
 <wire x1="121.92" y1="223.52" x2="121.92" y2="233.68" width="0.1524" layer="91"/>
 <junction x="121.92" y="233.68"/>
 <pinref part="RN4" gate="G$1" pin="2"/>
@@ -15366,7 +15395,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="40.64" y1="231.14" x2="45.72" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="231.14" x2="124.46" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="231.14" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="D26" gate="G$1" pin="A1"/>
+<pinref part="D9" gate="G$1" pin="A1"/>
 <wire x1="124.46" y1="223.52" x2="124.46" y2="231.14" width="0.1524" layer="91"/>
 <junction x="124.46" y="231.14"/>
 <pinref part="RN4" gate="G$1" pin="3"/>
@@ -15381,7 +15410,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="40.64" y1="228.6" x2="43.18" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="228.6" x2="134.62" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="228.6" x2="157.48" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="D26" gate="G$1" pin="A2"/>
+<pinref part="D9" gate="G$1" pin="A2"/>
 <wire x1="134.62" y1="228.6" x2="134.62" y2="223.52" width="0.1524" layer="91"/>
 <junction x="134.62" y="228.6"/>
 <pinref part="RN4" gate="G$1" pin="4"/>
@@ -15395,7 +15424,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="F27" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="182.88" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="182.88" x2="76.2" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="A2"/>
+<pinref part="D11" gate="G$1" pin="A2"/>
 <wire x1="76.2" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="162.56" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
 <junction x="96.52" y="182.88"/>
@@ -15411,7 +15440,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="66.04" y1="180.34" x2="73.66" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="180.34" x2="119.38" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="A1"/>
+<pinref part="D12" gate="G$1" pin="A1"/>
 <wire x1="99.06" y1="162.56" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
 <junction x="99.06" y="180.34"/>
 <pinref part="RN7" gate="G$1" pin="3"/>
@@ -15425,7 +15454,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="F29" gate="G$1" pin="1"/>
 <wire x1="127" y1="177.8" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="177.8" x2="71.12" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="A2"/>
+<pinref part="D12" gate="G$1" pin="A2"/>
 <wire x1="71.12" y1="177.8" x2="66.04" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="162.56" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
 <junction x="109.22" y="177.8"/>
@@ -15441,7 +15470,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="40.64" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="175.26" x2="111.76" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="A1"/>
+<pinref part="D13" gate="G$1" pin="A1"/>
 <wire x1="111.76" y1="162.56" x2="111.76" y2="175.26" width="0.1524" layer="91"/>
 <junction x="111.76" y="175.26"/>
 <pinref part="RN8" gate="G$1" pin="1"/>
@@ -15455,7 +15484,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="F31" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="172.72" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="A2"/>
+<pinref part="D13" gate="G$1" pin="A2"/>
 <wire x1="48.26" y1="172.72" x2="40.64" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="162.56" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <junction x="121.92" y="172.72"/>
@@ -15471,7 +15500,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="40.64" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="170.18" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="170.18" x2="149.86" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="D9" gate="G$1" pin="A1"/>
+<pinref part="D14" gate="G$1" pin="A1"/>
 <wire x1="124.46" y1="162.56" x2="124.46" y2="170.18" width="0.1524" layer="91"/>
 <junction x="124.46" y="170.18"/>
 <pinref part="RN8" gate="G$1" pin="3"/>
@@ -15485,7 +15514,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="F33" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="167.64" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="D9" gate="G$1" pin="A2"/>
+<pinref part="D14" gate="G$1" pin="A2"/>
 <wire x1="43.18" y1="167.64" x2="40.64" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="162.56" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
 <junction x="134.62" y="167.64"/>
@@ -15511,13 +15540,13 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="129.54" y1="218.44" x2="119.38" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="218.44" x2="91.44" y2="220.98" width="0.1524" layer="91"/>
 <junction x="91.44" y="218.44"/>
-<pinref part="D23" gate="G$1" pin="CC"/>
-<pinref part="D24" gate="G$1" pin="CC"/>
+<pinref part="D6" gate="G$1" pin="CC"/>
+<pinref part="D7" gate="G$1" pin="CC"/>
 <wire x1="104.14" y1="220.98" x2="104.14" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="D25" gate="G$1" pin="CC"/>
+<pinref part="D8" gate="G$1" pin="CC"/>
 <wire x1="116.84" y1="220.98" x2="116.84" y2="218.44" width="0.1524" layer="91"/>
 <junction x="116.84" y="218.44"/>
-<pinref part="D26" gate="G$1" pin="CC"/>
+<pinref part="D9" gate="G$1" pin="CC"/>
 <wire x1="129.54" y1="220.98" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
 <junction x="129.54" y="218.44"/>
 </segment>
@@ -15540,24 +15569,24 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="157.48" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="D22" gate="G$1" pin="C"/>
+<pinref part="D10" gate="G$1" pin="C"/>
 <wire x1="116.84" y1="157.48" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="154.94" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <junction x="119.38" y="157.48"/>
 <pinref part="TH5" gate="G$1" pin="A"/>
 <wire x1="129.54" y1="152.4" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="D9" gate="G$1" pin="CC"/>
+<pinref part="D14" gate="G$1" pin="CC"/>
 <wire x1="129.54" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="160.02" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
 <junction x="129.54" y="157.48"/>
-<pinref part="D8" gate="G$1" pin="CC"/>
+<pinref part="D13" gate="G$1" pin="CC"/>
 <wire x1="116.84" y1="160.02" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
 <junction x="116.84" y="157.48"/>
-<pinref part="D7" gate="G$1" pin="CC"/>
+<pinref part="D12" gate="G$1" pin="CC"/>
 <wire x1="104.14" y1="160.02" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
 <junction x="104.14" y="157.48"/>
-<pinref part="D6" gate="G$1" pin="CC"/>
+<pinref part="D11" gate="G$1" pin="CC"/>
 <wire x1="91.44" y1="160.02" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 <junction x="91.44" y="157.48"/>
 </segment>
@@ -15565,7 +15594,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <net name="N$81" class="0">
 <segment>
 <pinref part="TH5" gate="G$1" pin="G"/>
-<pinref part="D22" gate="G$1" pin="A"/>
+<pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="127" y1="147.32" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="147.32" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
@@ -15588,7 +15617,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="86.36" y1="246.38" x2="78.74" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="F18" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="246.38" x2="101.6" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="D23" gate="G$1" pin="A1"/>
+<pinref part="D6" gate="G$1" pin="A1"/>
 <wire x1="86.36" y1="223.52" x2="86.36" y2="246.38" width="0.1524" layer="91"/>
 <junction x="86.36" y="246.38"/>
 <pinref part="RN2" gate="G$1" pin="8"/>
@@ -15603,7 +15632,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="F19" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="243.84" x2="96.52" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="243.84" x2="109.22" y2="243.84" width="0.1524" layer="91"/>
-<pinref part="D23" gate="G$1" pin="A2"/>
+<pinref part="D6" gate="G$1" pin="A2"/>
 <wire x1="96.52" y1="223.52" x2="96.52" y2="243.84" width="0.1524" layer="91"/>
 <junction x="96.52" y="243.84"/>
 <pinref part="RN2" gate="G$1" pin="7"/>
@@ -15618,7 +15647,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="F20" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="241.3" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="241.3" x2="116.84" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="D24" gate="G$1" pin="A1"/>
+<pinref part="D7" gate="G$1" pin="A1"/>
 <wire x1="99.06" y1="223.52" x2="99.06" y2="241.3" width="0.1524" layer="91"/>
 <junction x="99.06" y="241.3"/>
 <pinref part="RN2" gate="G$1" pin="6"/>
@@ -15633,7 +15662,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="F21" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="238.76" x2="109.22" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="238.76" x2="124.46" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="D24" gate="G$1" pin="A2"/>
+<pinref part="D7" gate="G$1" pin="A2"/>
 <wire x1="109.22" y1="238.76" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <junction x="109.22" y="238.76"/>
 <pinref part="RN2" gate="G$1" pin="5"/>
@@ -15647,7 +15676,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <segment>
 <pinref part="F26" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="185.42" x2="104.14" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="A1"/>
+<pinref part="D11" gate="G$1" pin="A1"/>
 <wire x1="86.36" y1="162.56" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
 <junction x="86.36" y="185.42"/>
 <pinref part="RN7" gate="G$1" pin="1"/>
