@@ -12631,8 +12631,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="F25" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
 <attribute name="LCSC_PART" value="C261946"/>
 </part>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="4V7">
-<attribute name="LCSC_PART" value="C384560"/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1">
+<attribute name="LCSC_PART" value="C294621"/>
 </part>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
 <attribute name="LCSC_PART" value="C17520"/>
@@ -12668,8 +12668,8 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="F33" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
 <attribute name="LCSC_PART" value="C261946"/>
 </part>
-<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="4V7">
-<attribute name="LCSC_PART" value="C384560"/>
+<part name="D10" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V1">
+<attribute name="LCSC_PART" value="C294621"/>
 </part>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
 <attribute name="LCSC_PART" value="C17520"/>
