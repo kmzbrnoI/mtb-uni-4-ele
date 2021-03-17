@@ -12447,10 +12447,10 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="22pF">
-<attribute name="LCSC_PART" value="C17513"/>
+<attribute name="LCSC_PART" value="C1804"/>
 </part>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="22pF">
-<attribute name="LCSC_PART" value="C17513"/>
+<attribute name="LCSC_PART" value="C1804"/>
 </part>
 <part name="IC2" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL8" device="" package3d_urn="urn:adsk.eagle:package:29519/2" value="SN75176BP"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>

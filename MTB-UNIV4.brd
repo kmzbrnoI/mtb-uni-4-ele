@@ -2820,12 +2820,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.256815625" y="22.247928125" size="1.27" layer="28" rot="MR135"/>
 </element>
 <element name="C1" library="rcl" package="C0805" value="22pF" x="45.2775" y="39.605" smashed="yes" rot="MR180">
-<attribute name="LCSC_PART" value="C17513" x="45.2775" y="39.605" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" value="C1804" x="45.2775" y="39.605" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="44.7025" y="40.6275" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="46.7975" y="37.23" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="22pF" x="35.565" y="39.77" smashed="yes" rot="MR180">
-<attribute name="LCSC_PART" value="C17513" x="35.565" y="39.77" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" value="C1804" x="35.565" y="39.77" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="36.5125" y="40.9575" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="34.295" y="42.31" size="1.27" layer="28" rot="MR180"/>
 </element>
