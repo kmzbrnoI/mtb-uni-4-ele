@@ -14089,30 +14089,6 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <junction x="203.2" y="50.8"/>
 </segment>
 </net>
-<net name="MISO" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="(MISO)PB3"/>
-<wire x1="121.92" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<label x="124.46" y="88.9" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="292.1" y1="114.3" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
-<label x="289.56" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JPROG" gate="G$1" pin="MISO"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="(MOSI)PB2"/>
-<wire x1="121.92" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
-<label x="124.46" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="320.04" y1="111.76" x2="322.58" y2="111.76" width="0.1524" layer="91"/>
-<label x="322.58" y="111.76" size="1.27" layer="95" xref="yes"/>
-<pinref part="JPROG" gate="G$1" pin="MOSI"/>
-</segment>
-</net>
 <net name="SCK" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(SCK)PB1"/>
@@ -14279,6 +14255,11 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <wire x1="121.92" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
 <label x="124.46" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="320.04" y1="111.76" x2="322.58" y2="111.76" width="0.1524" layer="91"/>
+<label x="322.58" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="JPROG" gate="G$1" pin="MOSI"/>
+</segment>
 </net>
 <net name="RS-E" class="0">
 <segment>
@@ -14310,6 +14291,11 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="IC1" gate="G$1" pin="(TXD/PDO)PE1"/>
 <wire x1="121.92" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
 <label x="124.46" y="15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="292.1" y1="114.3" x2="289.56" y2="114.3" width="0.1524" layer="91"/>
+<label x="289.56" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JPROG" gate="G$1" pin="MISO"/>
 </segment>
 </net>
 <net name="N$13" class="0">
