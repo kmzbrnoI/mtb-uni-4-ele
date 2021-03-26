@@ -293,9 +293,9 @@ Brno I</text>
 <wire x1="22.86" y1="21.59" x2="22.86" y2="17.145" width="0.1524" layer="21"/>
 <text x="27.94" y="23.495" size="1.016" layer="25" font="vector">RS485 driver must
 be removed for ISP</text>
-<text x="63.5" y="22.225" size="0.8128" layer="25" align="center-left">RED</text>
-<text x="63.5" y="20.0025" size="0.8128" layer="25" align="center-left">GREEN</text>
-<text x="63.5" y="17.78" size="0.8128" layer="25" align="center-left">BLUE</text>
+<text x="63.5" y="22.225" size="0.8128" layer="21" align="center-left">RED</text>
+<text x="63.5" y="20.0025" size="0.8128" layer="21" align="center-left">GREEN</text>
+<text x="63.5" y="17.78" size="0.8128" layer="21" align="center-left">BLUE</text>
 </plain>
 <libraries>
 <library name="crystal" urn="urn:adsk.eagle:library:204">
@@ -2802,7 +2802,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="40.01" y="35.705" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="40.01" y="35.705" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="19" x="40.01" y="35.705" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="34.93" y="31.768" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="34.93" y="38.118" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="IC5" library="uln-udn" library_urn="urn:adsk.eagle:library:407" package="DIL18" package3d_urn="urn:adsk.eagle:package:16424/2" value="ULN2803A" x="63.215" y="34.3" smashed="yes">
 <attribute name="NAME" x="49.8465" y="35.9105" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -2862,22 +2862,22 @@ design rules under a new name.</description>
 <element name="JPROG" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="AVRISP" package3d_urn="urn:adsk.eagle:package:6240744/1" value="AVRISP-6" x="23.3775" y="24.73" smashed="yes" rot="R270"/>
 <element name="C7" library="rcl" package="C1206" value="22uF/18V" x="100.965" y="24.765" smashed="yes" rot="MR0">
 <attribute name="NAME" x="103.44" y="24.795" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="103.1875" y="22.225" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="102.235" y="21.59" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C8" library="rcl" package="C1206" value="47uF/10V" x="101.9175" y="12.7" smashed="yes" rot="MR180">
 <attribute name="LCSC_PART" value="C96123" x="101.9175" y="12.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="101.3525" y="11.1675" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="100.965" y="6.35" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="105.41" y="9.525" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="F1" library="adafruit_edited" package="R1206" value="200mA" x="96.8375" y="43.4975" smashed="yes" rot="MR180">
 <attribute name="LCSC_PART" value="C70067" x="96.8375" y="43.4975" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="101.3225" y="42.9575" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="94.6625" y="42.2275" size="1.016" layer="28" rot="MR180"/>
+<attribute name="VALUE" x="94.6625" y="45.72" size="1.016" layer="28" rot="MR180"/>
 </element>
 <element name="C9" library="rcl" package="C0805" value="100nF" x="41.97" y="14.445" smashed="yes" rot="MR270">
 <attribute name="LCSC_PART" value="C68978" x="41.97" y="14.445" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="41.215" y="10.6375" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="40.7" y="18.5725" size="1.27" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="42.605" y="12.8575" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="JP7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X8" package3d_urn="urn:adsk.eagle:package:38152/1" value="" x="90.19" y="21.055" smashed="yes" rot="R180">
 <attribute name="VALUE" x="91.46" y="23.468" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
@@ -2926,13 +2926,13 @@ design rules under a new name.</description>
 <attribute name="LCSC_PART" value="C353849" x="2.8575" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="6.9775" y="32.52" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="2.8575" y="33.02" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="7.9375" y="32.385" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="7.3025" y="34.29" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V" x="74.8125" y="44.41" smashed="yes" rot="MR180">
 <attribute name="LCSC_PART" value="C353849" x="74.8125" y="44.41" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="76.765" y="45.1475" size="1.27" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="3" x="74.8125" y="44.41" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="72.9075" y="47.585" size="1.27" layer="28" rot="MR180"/>
+<attribute name="VALUE" x="76.7175" y="44.41" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R9" library="rcl" package="R0805" value="2k2" x="74.855" y="50.0225" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C17520" x="74.855" y="50.0225" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2942,7 +2942,7 @@ design rules under a new name.</description>
 <element name="R8" library="rcl" package="R0805" value="2k2" x="1.905" y="24.765" smashed="yes" rot="MR90">
 <attribute name="LCSC_PART" value="C17520" x="1.905" y="24.765" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="4.51" y="26.3925" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="3.175" y="23.495" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="-0.635" y="23.495" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C14" library="rcl" package="C0805" value="100nF" x="2.8575" y="36.195" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="2.8575" y="36.195" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2952,7 +2952,7 @@ design rules under a new name.</description>
 <element name="C15" library="rcl" package="C0805" value="100nF" x="1.905" y="28.575" smashed="yes" rot="MR90">
 <attribute name="LCSC_PART" value="C49678" x="1.905" y="28.575" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="1.0175" y="25.7575" size="0.8128" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="5.715" y="24.765" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="8.255" y="27.305" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="TH1" library="ElectroKrt" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148" x="6.985" y="22.86" smashed="yes" rot="MR180">
 <attribute name="NAME" x="14.025" y="22.6225" size="1.27" layer="26" ratio="10" rot="MR0"/>
@@ -3010,12 +3010,12 @@ design rules under a new name.</description>
 <element name="C17" library="rcl" package="C0805" value="100nF" x="74.855" y="47.84" smashed="yes" rot="MR180">
 <attribute name="LCSC_PART" value="C49678" x="74.855" y="47.84" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="78.0975" y="49.0975" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="76.9375" y="45.3275" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="76.9375" y="45.9625" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C12" library="rcl" package="C0805" value="100nF" x="96.8375" y="40.005" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C49678" x="96.8375" y="40.005" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="94.7425" y="39.91" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="98.1075" y="37.465" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="94.9325" y="39.37" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R2" library="rcl" package="R0805" value="2k2" x="97.16" y="27.325" smashed="yes" rot="MR180">
 <attribute name="LCSC_PART" value="C17520" x="97.16" y="27.325" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3024,7 +3024,7 @@ design rules under a new name.</description>
 </element>
 <element name="TH3" library="ElectroKrt" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148" x="99.06" y="34.29" smashed="yes" rot="MR270">
 <attribute name="NAME" x="104.2675" y="34.5525" size="1.27" layer="26" ratio="10" rot="MR90"/>
-<attribute name="VALUE" x="99.695" y="36.83" size="1.27" layer="28" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="99.06" y="36.83" size="1.27" layer="28" ratio="10" rot="MR270"/>
 </element>
 <element name="C13" library="rcl" package="C0805" value="100nF" x="97.16" y="29.5875" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="97.16" y="29.5875" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3034,7 +3034,7 @@ design rules under a new name.</description>
 <element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BZX84C18" x="102.235" y="28.575" smashed="yes" rot="MR90">
 <attribute name="NAME" x="103.9025" y="29.8925" size="1.27" layer="26" rot="MR90"/>
 <attribute name="POPULARITY" value="3" x="102.235" y="28.575" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="99.06" y="26.67" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="104.14" y="26.035" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="IC3" library="LDO" library_urn="urn:adsk.eagle:library:20959563" package="MC78M05BDTRKG" package3d_urn="urn:adsk.eagle:package:20920771/3" value="MC7805CDTG" x="99.06" y="19.3675" smashed="yes" rot="MR270">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3046,12 +3046,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="DPak" x="99.06" y="19.3675" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="93.6625" y="19.73" size="1.016" layer="28" rot="MR180"/>
 </element>
-<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="GREEN" x="60.96" y="17.78" smashed="yes" rot="R270">
-<attribute name="VALUE" x="59.69" y="15.24" size="1.27" layer="27"/>
-</element>
-<element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="RED" x="60.96" y="20.0025" smashed="yes" rot="R270">
-<attribute name="VALUE" x="59.69" y="17.4625" size="1.27" layer="27"/>
-</element>
+<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="GREEN" x="60.96" y="17.78" smashed="yes" rot="R270"/>
+<element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="RED" x="60.96" y="20.0025" smashed="yes" rot="R270"/>
 <element name="R4" library="rcl" package="R0805" value="1k" x="55.88" y="20.0025" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="20.51" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="53.34" y="20.6375" size="1.27" layer="27" rot="R180"/>
@@ -3148,7 +3144,7 @@ design rules under a new name.</description>
 <attribute name="LCSC_PART" value="C294621" x="3.175" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="2.255" y="10.0825" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="3" x="-1.905" y="12.3825" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="5.08" y="13.0175" size="1.27" layer="28" rot="MR180"/>
+<attribute name="VALUE" x="4.7625" y="9.525" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R6" library="rcl" package="R0805" value="2k2" x="3.175" y="16.1925" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C17520" x="3.175" y="16.1925" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3163,11 +3159,11 @@ design rules under a new name.</description>
 <element name="C19" library="rcl" package="C0805" value="100nF" x="1.905" y="19.685" smashed="yes" rot="MR270">
 <attribute name="LCSC_PART" value="C49678" x="1.905" y="19.685" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="0.2225" y="18.605" size="0.8128" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="0.635" y="22.225" size="1.27" layer="28" rot="MR270"/>
+<attribute name="VALUE" x="1.27" y="22.225" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="TH4" library="ElectroKrt" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148" x="9.525" y="12.065" smashed="yes" rot="MR180">
 <attribute name="NAME" x="9.525" y="5.955" size="1.27" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="6.985" y="12.3825" size="1.27" layer="28" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="6.985" y="11.7475" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="F26" library="adafruit_edited" package="R1206S" value="50mA" x="71.4375" y="9.2075" smashed="yes" rot="MR270">
 <attribute name="LSCS_PART" value="C261946" x="71.4375" y="9.2075" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3218,21 +3214,21 @@ design rules under a new name.</description>
 <element name="R7" library="rcl" package="R0805" value="2k2" x="75.6075" y="5.555" smashed="yes" rot="MR180">
 <attribute name="LCSC_PART" value="C17520" x="75.6075" y="5.555" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="76.37" y="3.2375" size="1.016" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="78.1475" y="6.19" size="1.27" layer="28" rot="MR180"/>
+<attribute name="VALUE" x="74.3375" y="4.285" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C20" library="rcl" package="C0805" value="100nF" x="75.565" y="14.605" smashed="yes" rot="MR180">
 <attribute name="LCSC_PART" value="C24497" x="75.565" y="14.605" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="77.6925" y="13.525" size="1.016" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="77.7875" y="15.24" size="1.27" layer="28" rot="MR180"/>
+<attribute name="VALUE" x="76.5175" y="16.51" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C21" library="rcl" package="C0805" value="100nF" x="75.565" y="7.9375" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C49678" x="75.565" y="7.9375" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="79.5025" y="7.2075" size="1.016" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="78.105" y="5.3975" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="77.47" y="7.9375" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="TH5" library="ElectroKrt" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148" x="84.0275" y="11.525" smashed="yes" rot="MR90">
 <attribute name="NAME" x="86.77" y="8.4275" size="1.27" layer="26" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="82.7575" y="8.985" size="1.27" layer="28" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="84.0275" y="8.985" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="C10" library="rcl" package="C0805" value="100nF" x="34.1" y="29.135" smashed="yes" rot="R180">
 <attribute name="LCSC_PART" value="C49678" x="34.1" y="29.135" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3261,55 +3257,55 @@ design rules under a new name.</description>
 <attribute name="LCSC_PART" value="C68978" x="38.1" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="40.64" y="14.9225" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="6" x="38.1" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="40.005" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="40.005" y="11.43" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70" x="29.5275" y="13.97" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="29.5275" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="30.1625" y="16.1925" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="6" x="29.5275" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="31.4325" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="31.4325" y="15.875" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70" x="24.13" y="13.97" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="24.13" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="24.765" y="16.1925" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="6" x="24.13" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="26.035" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="26.035" y="15.875" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70" x="15.24" y="13.97" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="15.24" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="14.2875" y="16.51" size="1.016" layer="26" rot="MR270"/>
 <attribute name="POPULARITY" value="6" x="15.24" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="17.145" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="17.145" y="15.875" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="D11" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70" x="70.485" y="13.97" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="70.485" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="71.755" y="16.1925" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="6" x="70.485" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="72.39" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="73.025" y="15.875" size="1.016" layer="28" rot="MR270"/>
 </element>
 <element name="D12" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70" x="61.9125" y="13.97" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="61.9125" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="63.1825" y="16.1925" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="6" x="61.9125" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="63.8175" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="63.8175" y="15.875" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70" x="56.515" y="13.97" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="56.515" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="58.1025" y="16.1925" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="6" x="56.515" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="58.42" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="58.42" y="15.875" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAV70" x="47.9425" y="13.97" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C68978" x="47.9425" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="49.53" y="16.1925" size="1.016" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="6" x="47.9425" y="13.97" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="49.8475" y="10.795" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="49.8475" y="15.875" size="1.016" layer="28" rot="MR0"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOD-123_MINI-SMA" package3d_urn="urn:adsk.eagle:package:43457/2" value="SM4007PL" x="101.2825" y="40.005" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C64898" x="101.2825" y="40.005" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="104.3305" y="41.4655" size="1.27" layer="26" rot="MR0"/>
 <attribute name="POPULARITY" value="0" x="101.2825" y="40.005" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="104.3305" y="37.592" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="103.6955" y="41.402" size="0.8128" layer="28" rot="MR0"/>
 </element>
 <element name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="19.685" y="13.335" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C29718" x="19.685" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3319,7 +3315,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="19.685" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="19.685" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="19.685" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="21.463" y="10.541" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="21.463" y="14.351" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN6" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="66.04" y="13.335" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C29718" x="66.04" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3329,7 +3325,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="66.04" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="66.04" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="66.04" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="67.818" y="10.541" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="67.818" y="14.351" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN5" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="52.07" y="13.335" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C29718" x="52.07" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3339,7 +3335,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="52.07" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="52.07" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="52.07" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="53.848" y="10.541" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="53.848" y="14.351" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="33.655" y="13.335" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C29718" x="33.655" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3350,7 +3346,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="33.655" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="33.655" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SPICEPREFIX" value="X" x="33.655" y="13.335" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="35.433" y="10.541" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="35.433" y="14.351" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN10" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="76.2" y="24.765" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C29718" x="76.2" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3360,7 +3356,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="76.2" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="76.2" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="76.2" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="77.978" y="21.971" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="77.978" y="26.416" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN11" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="10k" x="86.36" y="24.765" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C29718" x="86.36" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3370,7 +3366,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="86.36" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="86.36" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="86.36" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="88.138" y="21.971" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="88.138" y="26.416" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2" x="33.655" y="16.51" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C12001" x="33.655" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3380,7 +3376,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="33.655" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="33.655" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="33.655" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="35.433" y="13.716" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="35.433" y="18.161" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2" x="19.685" y="16.51" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C12001" x="19.685" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3390,7 +3386,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="19.685" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="19.685" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="19.685" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="21.463" y="13.716" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="21.463" y="18.161" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN7" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2" x="66.04" y="16.51" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C12001" x="66.04" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3400,7 +3396,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="66.04" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="66.04" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="66.04" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="67.818" y="13.716" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="67.818" y="18.161" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="RN8" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="2k2" x="52.07" y="16.51" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C12001" x="52.07" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3410,19 +3406,17 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="52.07" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="52.07" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POPULARITY" value="0" x="52.07" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="53.848" y="13.716" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="53.848" y="18.161" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="BLUE" x="60.96" y="22.225" smashed="yes" rot="R270">
-<attribute name="VALUE" x="59.69" y="19.685" size="1.27" layer="27"/>
-</element>
+<element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1" value="BLUE" x="60.96" y="22.225" smashed="yes" rot="R270"/>
 <element name="R3" library="rcl" package="R0805" value="1k" x="55.88" y="22.225" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="22.86" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="56.515" y="24.765" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="53.34" y="22.86" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C6" library="rcl" package="C0805" value="22uF/18V" x="100.965" y="24.765" smashed="yes" rot="MR0">
 <attribute name="LCSC_PART" value="C45783" x="100.965" y="24.765" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="103.505" y="26.67" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="102.235" y="22.225" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="102.235" y="21.59" size="1.27" layer="28" rot="MR0"/>
 </element>
 </elements>
 <signals>
