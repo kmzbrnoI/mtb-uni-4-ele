@@ -13833,6 +13833,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="TPMISO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
 <part name="TPMOSI" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP10R" package3d_urn="urn:adsk.eagle:package:27959/1" value="TPTP10R"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13841,7 +13842,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="289.56" y="5.08" size="2.54" layer="97">Robert Čížek, Jan Horáček
 KMŽ Brno I, LRKV MENDELU
 2020-2021</text>
-<text x="375.158" y="5.08" size="2.54" layer="94">v4.2</text>
+<text x="375.158" y="5.08" size="2.54" layer="94">v4.3</text>
 <text x="344.17" y="20.32" size="2.54" layer="94">All</text>
 <text x="335.28" y="25.4" size="1.9304" layer="97" align="bottom-center">Released under the Creative Commons Attribution-ShareAlike 4.0 License
 https://creativecommons.org/licenses/by-sa/4.0/
@@ -14663,8 +14664,8 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <attribute name="NAME" x="161.0614" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="165.862" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND8" gate="1" x="20.32" y="106.68" smashed="yes">
-<attribute name="VALUE" x="17.78" y="104.14" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="20.32" y="101.6" smashed="yes">
+<attribute name="VALUE" x="17.78" y="99.06" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="325.12" y="66.04" smashed="yes" rot="MR0">
 <attribute name="NAME" x="323.596" y="66.421" size="1.778" layer="95" rot="MR0"/>
@@ -14678,6 +14679,10 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="TPMOSI" gate="G$1" x="134.62" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="135.382" y="86.106" size="1.778" layer="95" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" x="133.35" y="85.09" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="C11" gate="G$1" x="53.34" y="106.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.721" y="105.156" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="48.641" y="105.156" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -14971,13 +14976,17 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="20.32" y1="109.22" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="104.14" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="106.68" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="111.76" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="111.76" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
 <junction x="20.32" y="111.76"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="106.68" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
+<junction x="20.32" y="106.68"/>
 </segment>
 </net>
 <net name="+5V" class="3">
@@ -16838,6 +16847,13 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <pinref part="IC1" gate="G$1" pin="(MOSI)PB2"/>
 <pinref part="TPMOSI" gate="G$1" pin="TP"/>
 <wire x1="121.92" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AREF" class="0">
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="AREF"/>
+<wire x1="55.88" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
