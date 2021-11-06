@@ -13677,10 +13677,10 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <attribute name="LCSC_PART" value="C70067"/>
 </part>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V">
-<attribute name="LCSC_PART" value="C353849"/>
+<attribute name="LCSC_PART" value="C118586"/>
 </part>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="30V">
-<attribute name="LCSC_PART" value="C353849"/>
+<attribute name="LCSC_PART" value="C118586"/>
 </part>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="2k2">
 <attribute name="LCSC_PART" value="C17520"/>
@@ -13694,8 +13694,12 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
 <attribute name="LCSC_PART" value="C49678"/>
 </part>
-<part name="TH1" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
-<part name="TH2" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
+<part name="TH1" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148">
+<attribute name="LCSC_PART" value="C256433"/>
+</part>
+<part name="TH2" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148">
+<attribute name="LCSC_PART" value="C256433"/>
+</part>
 <part name="F10" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="200mA">
 <attribute name="LCSC_PART" value="C70067"/>
 </part>
@@ -13809,7 +13813,9 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
 <attribute name="LCSC_PART" value="C49678"/>
 </part>
-<part name="TH4" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
+<part name="TH4" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148">
+<attribute name="LCSC_PART" value="C256433"/>
+</part>
 <part name="F26" library="adafruit_edited" deviceset="PTCFUSE" device="-1206S" value="50mA">
 <attribute name="LSCS_PART" value="C261946"/>
 </part>
@@ -13846,7 +13852,9 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0805" value="100nF">
 <attribute name="LCSC_PART" value="C49678"/>
 </part>
-<part name="TH5" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148"/>
+<part name="TH5" library="ElectroKrt" deviceset="BT148" device="" package3d_urn="urn:adsk.eagle:package:30370/1" value="BT148">
+<attribute name="LCSC_PART" value="C256433"/>
+</part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="X2B" library="con-malina" deviceset="MVE252-5-V" device=""/>
@@ -14147,10 +14155,12 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="TH1" gate="G$1" x="317.5" y="220.98" smashed="yes">
 <attribute name="NAME" x="320.04" y="220.98" size="1.778" layer="95"/>
 <attribute name="VALUE" x="320.04" y="218.44" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="317.5" y="220.98" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="TH2" gate="G$1" x="317.5" y="162.56" smashed="yes">
 <attribute name="NAME" x="320.04" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="320.04" y="160.02" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="317.5" y="162.56" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="F10" gate="G$1" x="342.9" y="187.96" smashed="yes">
 <attribute name="VALUE" x="339.09" y="186.69" size="1.778" layer="96"/>
@@ -14543,6 +14553,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="TH4" gate="G$1" x="129.54" y="149.86" smashed="yes">
 <attribute name="NAME" x="132.08" y="149.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.08" y="147.32" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="129.54" y="149.86" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="F26" gate="G$1" x="109.22" y="246.38" smashed="yes">
 <attribute name="VALUE" x="105.41" y="245.11" size="1.778" layer="96"/>
@@ -14607,6 +14618,7 @@ https://github.com/kmzbrnoI/mtb-uni-4-ele</text>
 <instance part="TH5" gate="G$1" x="129.54" y="213.36" smashed="yes">
 <attribute name="NAME" x="132.08" y="213.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.08" y="210.82" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="129.54" y="213.36" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="P+2" gate="1" x="266.7" y="83.82" smashed="yes">
 <attribute name="VALUE" x="264.16" y="78.74" size="1.778" layer="96" rot="R90"/>
