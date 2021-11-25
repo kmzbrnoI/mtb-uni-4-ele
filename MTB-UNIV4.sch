@@ -13631,7 +13631,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 </part>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k">
-<attribute name="LCSC_PART" value="C17513"/>
+<attribute name="LCSC_PART" value="C17414"/>
 </part>
 <part name="JPROG" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="AVRISP" device="-6" package3d_urn="urn:adsk.eagle:package:6240744/1"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="22uF/18V"/>
@@ -13862,7 +13862,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <part name="X1A" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="X1B" library="con-malina" deviceset="MVE252-5-V" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10k">
-<attribute name="LCSC_PART" value="C17513"/>
+<attribute name="LCSC_PART" value="C17414"/>
 </part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
