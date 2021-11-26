@@ -13947,7 +13947,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <text x="289.56" y="5.08" size="2.54" layer="97">Robert Čížek, Jan Horáček
 KMŽ Brno I, LRKV MENDELU
 2020-2021</text>
-<text x="375.158" y="5.08" size="2.54" layer="94">v4.3</text>
+<text x="375.158" y="5.08" size="2.54" layer="94">v4.4</text>
 <text x="344.17" y="20.32" size="2.54" layer="94">All</text>
 <text x="335.28" y="25.4" size="1.9304" layer="97" align="bottom-center">Released under the Creative Commons Attribution-ShareAlike 4.0 License
 https://creativecommons.org/licenses/by-sa/4.0/

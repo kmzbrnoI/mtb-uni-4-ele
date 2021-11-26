@@ -171,7 +171,7 @@
 <vertex x="97.79" y="43.815"/>
 <vertex x="105.0925" y="43.815"/>
 </polygon>
-<text x="95.5675" y="26.3525" size="1.778" layer="21" rot="R90" align="bottom-center">MTB-UNI v4.3</text>
+<text x="95.5675" y="26.3525" size="1.778" layer="21" rot="R90" align="bottom-center">MTB-UNI v4.4</text>
 <text x="101.2825" y="21.59" size="1.27" layer="21" rot="R180" align="bottom-center">RČ&amp;JH
 2020/21</text>
 <text x="101.2825" y="12.7" size="1.27" layer="21" align="top-center">LRKV
@@ -293,8 +293,8 @@ Brno I</text>
 <wire x1="22.86" y1="21.59" x2="22.86" y2="17.145" width="0.1524" layer="21"/>
 <text x="27.94" y="23.495" size="1.016" layer="25" font="vector">RS485 driver must
 be removed for ISP</text>
-<text x="63.5" y="22.225" size="0.8128" layer="21" align="center-left">RED</text>
-<text x="63.5" y="20.0025" size="0.8128" layer="21" align="center-left">GREEN</text>
+<text x="63.5" y="22.225" size="0.8128" layer="21" align="center-left">GREEN</text>
+<text x="63.5" y="20.0025" size="0.8128" layer="21" align="center-left">RED</text>
 <text x="63.5" y="17.78" size="0.8128" layer="21" align="center-left">BLUE</text>
 </plain>
 <libraries>
