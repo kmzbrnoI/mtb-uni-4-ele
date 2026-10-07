@@ -38,16 +38,26 @@ attribute set.
  * Screw sockets or connectors could be variably assembled on inputs & outputs
    based on user requirements.
 
+## Piece check
+
+Following checks should be performed to mark each manufactured piece as *QC PASS*.
+
+1. Check module communicates on MTBbus.
+2. Check all LEDs are working.
+3. Check button is working.
+4. Check diagnostic is working.
+5. Test module inputs and outputs with [tester.py](https://github.com/kmzbrnoI/mtb-uni-4-fw/blob/master/tester/tester.py).
+
 ## Authors
 
-MTB-UNI v4 module is designed by:
+MTB-UNI v4 module was designed by:
 
  * [Laboratory of railroad control](https://lrkv.pef.mendelu.cz/) Mendel University Brno,
  * [Model Railway Club Brno](https://www.kmz-brno.cz/).
 
 People:
 
- * Jan Horáček
+ * Jan Malina (ex. Horáček)
  * Robert Čížek
 
 ## License
